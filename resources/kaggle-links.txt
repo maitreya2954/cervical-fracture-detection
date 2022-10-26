@@ -1,1 +1,4 @@
+https://www.kaggle.com/code/samuelcortinhas/extracting-vertebrae-c1-c7
+https://www.kaggle.com/code/ktgiahieu/train-effnetv2-s-demo
+https://www.kaggle.com/code/xhlulu/ranzcr-efficientnet-tpu-training/notebook?scriptVersionId=50021611
 https://www.kaggle.com/code/vslaykovsky/pytorch-effnetv2-vertebrae-detection-acc-0-95
