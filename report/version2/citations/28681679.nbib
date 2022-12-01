@@ -1,0 +1,92 @@
+PMID- 28681679
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20171109
+LR  - 20220408
+IS  - 1745-3682 (Electronic)
+IS  - 1745-3674 (Print)
+IS  - 1745-3674 (Linking)
+VI  - 88
+IP  - 6
+DP  - 2017 Dec
+TI  - Artificial intelligence for analyzing orthopedic trauma radiographs.
+PG  - 581-586
+LID - 10.1080/17453674.2017.1344459 [doi]
+AB  - Background and purpose - Recent advances in artificial intelligence (deep 
+      learning) have shown remarkable performance in classifying non-medical images, 
+      and the technology is believed to be the next technological revolution. So far it 
+      has never been applied in an orthopedic setting, and in this study we sought to 
+      determine the feasibility of using deep learning for skeletal radiographs. 
+      Methods - We extracted 256,000 wrist, hand, and ankle radiographs from Danderyd's 
+      Hospital and identified 4 classes: fracture, laterality, body part, and exam 
+      view. We then selected 5 openly available deep learning networks that were 
+      adapted for these images. The most accurate network was benchmarked against a 
+      gold standard for fractures. We furthermore compared the network's performance 
+      with 2 senior orthopedic surgeons who reviewed images at the same resolution as 
+      the network. Results - All networks exhibited an accuracy of at least 90% when 
+      identifying laterality, body part, and exam view. The final accuracy for 
+      fractures was estimated at 83% for the best performing network. The network 
+      performed similarly to senior orthopedic surgeons when presented with images at 
+      the same resolution as the network. The 2 reviewer Cohen's kappa under these 
+      conditions was 0.76. Interpretation - This study supports the use for orthopedic 
+      radiographs of artificial intelligence, which can perform at a human level. While 
+      current implementation lacks important features that surgeons require, e.g. risk 
+      of dislocation, classifications, measurements, and combining multiple exam views, 
+      these problems have technical solutions that are waiting to be implemented for 
+      orthopedics.
+FAU - Olczak, Jakub
+AU  - Olczak J
+AD  - a Department of Clinical Sciences , Karolinska Institutet , Danderyd Hospital.
+FAU - Fahlberg, Niklas
+AU  - Fahlberg N
+AD  - b Radiology clinic, Danderyd Hospital, Danderyd Hospital AB.
+FAU - Maki, Atsuto
+AU  - Maki A
+AD  - c Department of Robotics, Perception and Learning (RPL), School of Computer 
+      Science and Communication , KTH Royal Institute of Technology , Stockholm , 
+      Sweden.
+FAU - Razavian, Ali Sharif
+AU  - Razavian AS
+AD  - a Department of Clinical Sciences , Karolinska Institutet , Danderyd Hospital.
+AD  - c Department of Robotics, Perception and Learning (RPL), School of Computer 
+      Science and Communication , KTH Royal Institute of Technology , Stockholm , 
+      Sweden.
+FAU - Jilert, Anthony
+AU  - Jilert A
+AD  - b Radiology clinic, Danderyd Hospital, Danderyd Hospital AB.
+FAU - Stark, André
+AU  - Stark A
+AD  - a Department of Clinical Sciences , Karolinska Institutet , Danderyd Hospital.
+FAU - Sköldenberg, Olof
+AU  - Sköldenberg O
+AD  - a Department of Clinical Sciences , Karolinska Institutet , Danderyd Hospital.
+FAU - Gordon, Max
+AU  - Gordon M
+AD  - a Department of Clinical Sciences , Karolinska Institutet , Danderyd Hospital.
+LA  - eng
+PT  - Journal Article
+DEP - 20170706
+PL  - Sweden
+TA  - Acta Orthop
+JT  - Acta orthopaedica
+JID - 101231512
+SB  - IM
+CIN - Acta Orthop. 2017 Dec;88(6):577. PMID: 29106336
+MH  - *Artificial Intelligence
+MH  - Fractures, Bone/*diagnosis
+MH  - Humans
+MH  - *Radiographic Image Enhancement
+MH  - Radiography/*methods
+MH  - Reproducibility of Results
+PMC - PMC5694800
+EDAT- 2017/07/07 06:00
+MHDA- 2017/11/10 06:00
+CRDT- 2017/07/07 06:00
+PHST- 2017/07/07 06:00 [pubmed]
+PHST- 2017/11/10 06:00 [medline]
+PHST- 2017/07/07 06:00 [entrez]
+AID - iort-88-581 [pii]
+AID - 10.1080/17453674.2017.1344459 [doi]
+PST - ppublish
+SO  - Acta Orthop. 2017 Dec;88(6):581-586. doi: 10.1080/17453674.2017.1344459. Epub 
+      2017 Jul 6.

@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{17}
+\begin{thebibliography}{19}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -44,16 +44,22 @@
 \csname PreBibitemsHook\endcsname
 
 %%% 1
-\bibitem{bib1}
-\begin{barticle}
-\bauthor{\bsnm{Campbell}, \binits{S.L.}},
-\bauthor{\bsnm{Gear}, \binits{C.W.}}:
-\batitle{The index of general nonlinear {D}{A}{E}{S}}.
-\bjtitle{Numer. {M}ath.}
-\bvolume{72}(\bissue{2}),
-\bfpage{173}--\blpage{196}
-(\byear{1995})
-\end{barticle}
+\bibitem{DBLP:conf/icml/TanL21}
+\begin{bchapter}
+\bauthor{\bsnm{Tan}, \binits{M.}},
+\bauthor{\bsnm{Le}, \binits{Q.V.}}:
+\bctitle{Efficientnetv2: Smaller models and faster training}.
+In: \beditor{\bsnm{Meila}, \binits{M.}},
+\beditor{\bsnm{Zhang}, \binits{T.}} (eds.)
+\bbtitle{Proceedings of the 38th International Conference on Machine Learning,
+  {ICML} 2021, 18-24 July 2021, Virtual Event}.
+\bsertitle{Proceedings of Machine Learning Research},
+vol. \bseriesno{139},
+pp. \bfpage{10096}--\blpage{10106}.
+\bpublisher{{PMLR}}, \blocation{???}
+(\byear{2021}).
+\burl{http://proceedings.mlr.press/v139/tan21a.html}
+\end{bchapter}
 \endbibitem
 
 %%% 2
@@ -149,6 +155,28 @@
 \endbibitem
 
 %%% 7
+\bibitem{SEG:RandForest}
+\begin{botherref}
+\oauthor{\bsnm{SciKit-Learn}}:
+Random forest classifier.
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+\end{botherref}
+\endbibitem
+
+%%% 8
+\bibitem{bib1}
+\begin{barticle}
+\bauthor{\bsnm{Campbell}, \binits{S.L.}},
+\bauthor{\bsnm{Gear}, \binits{C.W.}}:
+\batitle{The index of general nonlinear {D}{A}{E}{S}}.
+\bjtitle{Numer. {M}ath.}
+\bvolume{72}(\bissue{2}),
+\bfpage{173}--\blpage{196}
+(\byear{1995})
+\end{barticle}
+\endbibitem
+
+%%% 9
 \bibitem{bib2}
 \begin{barticle}
 \bauthor{\bsnm{Slifka}, \binits{M.K.}},
@@ -162,7 +190,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 8
+%%% 10
 \bibitem{bib3}
 \begin{barticle}
 \bauthor{\bsnm{Hamburger}, \binits{C.}}:
@@ -175,7 +203,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 9
+%%% 11
 \bibitem{bib4}
 \begin{bbook}
 \bauthor{\bsnm{Geddes}, \binits{K.O.}},
@@ -188,7 +216,7 @@
 \end{bbook}
 \endbibitem
 
-%%% 10
+%%% 12
 \bibitem{bib5}
 \begin{bchapter}
 \bauthor{\bsnm{Broy}, \binits{M.}}:
@@ -203,7 +231,7 @@ pp. \bfpage{10}--\blpage{13}.
 \end{bchapter}
 \endbibitem
 
-%%% 11
+%%% 13
 \bibitem{bib6}
 \begin{bbook}
 \beditor{\bsnm{Seymour}, \binits{R.S.}} (ed.):
@@ -214,7 +242,7 @@ pp. \bfpage{10}--\blpage{13}.
 \end{bbook}
 \endbibitem
 
-%%% 12
+%%% 14
 \bibitem{bib7}
 \begin{bchapter}
 \bauthor{\bsnm{Smith}, \binits{S.E.}}:
@@ -229,7 +257,7 @@ pp. \bfpage{593}--\blpage{660}.
 \end{bchapter}
 \endbibitem
 
-%%% 13
+%%% 15
 \bibitem{bib8}
 \begin{botherref}
 \oauthor{\bsnm{Chung}, \binits{S.T.}},
@@ -243,7 +271,7 @@ Paper presented at the 3rd international symposium on the genetics of
 \end{botherref}
 \endbibitem
 
-%%% 14
+%%% 16
 \bibitem{bib9}
 \begin{botherref}
 \oauthor{\bsnm{Hao}, \binits{Z.}},
@@ -256,7 +284,7 @@ figshare \url{https://doi.org/10.6084/m9.figshare.853801}
 \end{botherref}
 \endbibitem
 
-%%% 15
+%%% 17
 \bibitem{bib10}
 \begin{botherref}
 \oauthor{\bsnm{Babichev}, \binits{S.A.}},
@@ -269,7 +297,7 @@ Preprint at \url{https://arxiv.org/abs/quant-ph/0208066v1}
 \end{botherref}
 \endbibitem
 
-%%% 16
+%%% 18
 \bibitem{bib11}
 \begin{barticle}
 \bauthor{\bsnm{Beneke}, \binits{M.}},
@@ -285,7 +313,7 @@ Preprint at \url{https://arxiv.org/abs/quant-ph/0208066v1}
 \end{barticle}
 \endbibitem
 
-%%% 17
+%%% 19
 \bibitem{bib12}
 \begin{botherref}
 \oauthor{\bsnm{Stahl}, \binits{B.}}:

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.8)  30 NOV 2022 20:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.8)  30 NOV 2022 23:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -760,6 +760,12 @@ the detec-tion
  []
 
 
+Underfull \hbox (badness 1708) in paragraph at lines 130--130
+ \OT1/cmr/m/n/9 Y model for draw-ing bound-ing boxes around the frac-ture area.
+ 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 130--130
  []\OT1/cmr/bx/n/9 Results: \OT1/cmr/m/n/9 Results need to be updated 
  []
@@ -789,6 +795,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 155.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.015> not available
+(Font)              size <5> substituted on input line 155.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.015> not available
+(Font)              size <5> substituted on input line 155.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.015> not available
+(Font)              size <5> substituted on input line 155.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.015> not available
+(Font)              size <5> substituted on input line 155.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -796,26 +821,7 @@ Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
 [2]
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 193.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 193.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.015> not available
-(Font)              size <5> substituted on input line 193.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 193.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 193.
-
-
-Overfull \hbox (7.4466pt too wide) in paragraph at lines 193--202
+Overfull \hbox (7.4466pt too wide) in paragraph at lines 207--216
 [][] 
  []
 
@@ -830,7 +836,11 @@ Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
 [3]
-Underfull \hbox (badness 1082) in paragraph at lines 267--268
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 281--282
 \OT1/cmr/m/n/10 use [][]\OT1/cmtt/m/n/10 \begin{table*} []... []\end{table*} []
 \OT1/cmr/m/n/10 instead of [][]\OT1/cmtt/m/n/10 \begin{table} []...
  []
@@ -851,12 +861,12 @@ Package epstopdf Info: Source file: <fig.eps>
 (epstopdf)                    size: 3039 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig-eps-converted-to.pdf f
 ig.eps>
-(epstopdf)             \includegraphics on input line 315.
+(epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
-<fig-eps-converted-to.pdf, id=134, 505.89pt x 84.315pt>
+<fig-eps-converted-to.pdf, id=135, 505.89pt x 84.315pt>
 File: fig-eps-converted-to.pdf Graphic file (type pdf)
 <use fig-eps-converted-to.pdf>
-Package pdftex.def Info: fig-eps-converted-to.pdf  used on input line 315.
+Package pdftex.def Info: fig-eps-converted-to.pdf  used on input line 329.
 (pdftex.def)             Requested size: 304.72693pt x 50.78879pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -874,7 +884,23 @@ Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 [6]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 368.
+put line 382.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
+24.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.03749> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 424.
+
+Overfull \hbox (8.2268pt too wide) in paragraph at lines 418--430
+[]$[]$ 
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -882,23 +908,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[7] (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
-10.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.03749> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 410.
-
-Overfull \hbox (8.2268pt too wide) in paragraph at lines 404--416
-[]$[]$ 
- []
-
-
+[7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -920,24 +930,24 @@ Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
 [10]
-Underfull \hbox (badness 1259) in paragraph at lines 532--533
+Underfull \hbox (badness 1259) in paragraph at lines 546--547
 \OT1/cmr/m/n/10 Nature Port-fo-lio jour-nals, ([][]$https : / / www . springer 
 . com / gp / authors-[]editors /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--533
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
 \OT1/cmr/m/n/10 journal-[]author / journal-[]author-[]helpdesk / publishing-[]e
 thics / 14214$[][]) for
  []
 
 
 Package hyperref Warning: Difference (4) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 548.
+(hyperref)                than one, level fixed on input line 562.
 
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 556.
+(hyperref)                than one, level fixed on input line 570.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -954,6 +964,22 @@ Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
 [12]
+Underfull \hbox (badness 10000) in paragraph at lines 160--165
+[]\OT1/cmr/m/n/10 SciKit-Learn: Ran-dom for-est clas-si-fier. https://scikit-
+ []
+
+
+Overfull \hbox (46.13524pt too wide) in paragraph at lines 160--165
+\OT1/cmr/m/n/10 learn.org/stable/modules/generated/sklearn.ensemble.RandomFores
+tClassifier.html
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--165
+
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -973,16 +999,16 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
 Package rerunfilecheck Info: File `sn-article.out' has not changed.
-(rerunfilecheck)             Checksum: 55E9C3F51D69B9D6859894A2B55ED69D;2648.
+(rerunfilecheck)             Checksum: 13A94A71DCCC6A85C81779B683F56C72;2391.
  ) 
 Here is how much of TeX's memory you used:
- 14874 strings out of 478268
- 222758 string characters out of 5846348
- 709004 words of memory out of 5000000
- 32752 multiletter control sequences out of 15000+600000
+ 14883 strings out of 478268
+ 222963 string characters out of 5846348
+ 715769 words of memory out of 5000000
+ 32758 multiletter control sequences out of 15000+600000
  498303 words of font info for 145 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 75i,17n,77p,940b,1496s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,17n,77p,1045b,1496s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8
 .pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
@@ -1012,10 +1038,10 @@ onts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-di
 st/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texm
 f-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2022/texmf-dist/f
 onts/type1/public/cm-super/sfrm1000.pfb>
-Output written on sn-article.pdf (14 pages, 360271 bytes).
+Output written on sn-article.pdf (14 pages, 364599 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
- 318 compressed objects within 4 object streams
- 75 named destinations out of 1000 (max. 500000)
+ 401 PDF objects out of 1000 (max. 8388607)
+ 323 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
  142 words of extra memory for PDF output out of 10000 (max. 10000000)
 

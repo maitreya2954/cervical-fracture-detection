@@ -1,0 +1,75 @@
+PMID- 29269036
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190415
+LR  - 20191210
+IS  - 1365-229X (Electronic)
+IS  - 0009-9260 (Linking)
+VI  - 73
+IP  - 5
+DP  - 2018 May
+TI  - Artificial intelligence in fracture detection: transfer learning from deep 
+      convolutional neural networks.
+PG  - 439-445
+LID - S0009-9260(17)30535-4 [pii]
+LID - 10.1016/j.crad.2017.11.015 [doi]
+AB  - AIM: To identify the extent to which transfer learning from deep convolutional 
+      neural networks (CNNs), pre-trained on non-medical images, can be used for 
+      automated fracture detection on plain radiographs. MATERIALS AND METHODS: The top 
+      layer of the Inception v3 network was re-trained using lateral wrist radiographs 
+      to produce a model for the classification of new studies as either "fracture" or 
+      "no fracture". The model was trained on a total of 11,112 images, after an 
+      eightfold data augmentation technique, from an initial set of 1,389 radiographs 
+      (695 "fracture" and 694 "no fracture"). The training data set was split 80:10:10 
+      into training, validation, and test groups, respectively. An additional 100 wrist 
+      radiographs, comprising 50 "fracture" and 50 "no fracture" images, were used for 
+      final testing and statistical analysis. RESULTS: The area under the receiver 
+      operator characteristic curve (AUC) for this test was 0.954. Setting the 
+      diagnostic cut-off at a threshold designed to maximise both sensitivity and 
+      specificity resulted in values of 0.9 and 0.88, respectively. CONCLUSION: The AUC 
+      scores for this test were comparable to state-of-the-art providing proof of 
+      concept for transfer learning from CNNs in fracture detection on plain 
+      radiographs. This was achieved using only a moderate sample size. This technique 
+      is largely transferable, and therefore, has many potential applications in 
+      medical imaging, which may lead to significant improvements in workflow 
+      productivity and in clinical risk reduction.
+CI  - Copyright © 2017 The Royal College of Radiologists. Published by Elsevier Ltd. 
+      All rights reserved.
+FAU - Kim, D H
+AU  - Kim DH
+AD  - Medical Imaging Department, Royal Devon and Exeter Hospital, Barrack Road, Exeter 
+      EX2 5DW, UK. Electronic address: Daniel.kim@nhs.net.
+FAU - MacKinnon, T
+AU  - MacKinnon T
+AD  - Medical Imaging Department, Royal Devon and Exeter Hospital, Barrack Road, Exeter 
+      EX2 5DW, UK.
+LA  - eng
+PT  - Journal Article
+DEP - 20171218
+PL  - England
+TA  - Clin Radiol
+JT  - Clinical radiology
+JID - 1306016
+SB  - IM
+MH  - *Artificial Intelligence
+MH  - Deep Learning
+MH  - Diagnosis, Differential
+MH  - Fractures, Bone/*diagnostic imaging
+MH  - Humans
+MH  - Machine Learning
+MH  - Neural Networks, Computer
+MH  - Radiographic Image Interpretation, Computer-Assisted
+MH  - Sensitivity and Specificity
+EDAT- 2017/12/23 06:00
+MHDA- 2019/04/16 06:00
+CRDT- 2017/12/23 06:00
+PHST- 2017/05/28 00:00 [received]
+PHST- 2017/11/14 00:00 [accepted]
+PHST- 2017/12/23 06:00 [pubmed]
+PHST- 2019/04/16 06:00 [medline]
+PHST- 2017/12/23 06:00 [entrez]
+AID - S0009-9260(17)30535-4 [pii]
+AID - 10.1016/j.crad.2017.11.015 [doi]
+PST - ppublish
+SO  - Clin Radiol. 2018 May;73(5):439-445. doi: 10.1016/j.crad.2017.11.015. Epub 2017 
+      Dec 18.

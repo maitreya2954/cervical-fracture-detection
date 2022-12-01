@@ -100,7 +100,7 @@
 
 \abstract{\textbf{Purpose:} To develop a deep learning model for the detection and localization of cervical spine fractures in the axial CT scans. 
 
-\textbf{Methods:} We use the dataset consisting of cervical spine CT scans provided by the Radiological Society of North America (RSNA). The dataset consists of 3000 studies of individual patients for the training and testing combined. Out of these 3000 patient studies, 83 of these studies also contains segmentation data. Additionally, for x studies the dataset contains bounding box coordinates data. The dataset population is split into 90\% for training and 10\% for validation. We use EfficientNet\cite{bib1} to learn the segmentation, X model for detecting the fractures and Y model for drawing bounding boxes around the fracture area.
+\textbf{Methods:} We use the dataset consisting of cervical spine CT scans provided by the Radiological Society of North America (RSNA). The dataset consists of 3000 studies of individual patients for the training and testing combined. Out of these 3000 patient studies, 83 of these studies also contains segmentation data. Additionally, for x studies the dataset contains bounding box coordinates data. The dataset population is split into 90\% for training and 10\% for validation. We use EfficientNetV2\cite{DBLP:conf/icml/TanL21} to learn the segmentation, X model for detecting the fractures and Y model for drawing bounding boxes around the fracture area.
 
 \textbf{Results:} Results need to be updated
 
@@ -142,11 +142,25 @@ The purpose of our study is to develop an automated deep learning system for det
 
 \subsection{Dataset and Study Population}\label{subsec2}
 
-We use the dataset consisting of cervical spine CT scans provided by the Radiological Society of North America (RSNA). The dataset we are using is made up of roughly 3000 CT studies, from twelve locations and across six continents. Spine radiology specialists have provided annotations to indicate the presence, vertebral level and location of any cervical spine fractures. Each radiology study consists of multiple dcm files. A dcm file follows the Digital Imaging and Communications in Medicine (DICOM) format. It is the standard format used for storing medical images and related metadata. It dates back to 1983, although it has been revised many times. Out of these 3000 patient studies, 83 of these studies also contains segmentation data. Additionally, for x studies the dataset contains bounding box coordinates data. The dataset population is split into 90\% for training and 10\% for validation.
+We use the dataset consisting of cervical spine CT scans provided by the Radiological Society of North America (RSNA). The dataset we are using is made up of roughly 3000 CT studies, from twelve locations and across six continents. Spine radiology specialists have provided annotations to indicate the presence, vertebral level and location of any cervical spine fractures. Each radiology study consists of multiple dcm files. A dcm file follows the Digital Imaging and Communications in Medicine (DICOM) format. It is the standard format used for storing medical images and related metadata. It dates back to 1983, although it has been revised many times. Out of these 3000 patient studies, 83 of these studies also contains segmentation data. Additionally, for x studies the dataset contains bounding box coordinates data. The dataset population is split into 90\% for training and 10\% for validation. The distribution of fractured and non-fractured dataset in the dataset is shown in the below two graphs.
 
-\subsubsection{This is an example for third level head---subsubsection head}\label{subsubsec2}
+Bar graph and pie graph for the dataset.
 
-Sample body text. Sample body text. Sample body text. Sample body text. Sample body text. Sample body text. Sample body text. Sample body text. 
+\subsubsection{Segmentation}\label{subsubsec2}
+
+Segmentation involves classification of CT radiographs into C1 to C7 labels. Using the 83 studies which have segmentation data. We train Random Forest classifier\cite{SEG:RandForest} and EfficientNetV2\cite{DBLP:conf/icml/TanL21}. Correct vertebrae labels are essential when training the fracture prediction model. First we extract vertebrae targets from 83 segmentation files.
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Model} & \textbf{Accuracy} \\ \hline
+Random Forest Classifier & 0.88 \\ \hline
+EfficientNetV2 & 0.95 \\ \hline
+\end{tabular}
+\caption[]
+	{\small Accuracies of the models for the segmentation}
+\end{table}
 
 \section{Equations}\label{sec4}
 
