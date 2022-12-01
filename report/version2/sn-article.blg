@@ -20,49 +20,54 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: sn-bibliography.bib
+Warning--entry type for "Fused-MBConv" isn't style-file defined
+--line 11 of file sn-bibliography.bib
+Warning--entry type for "SEG:RandForest" isn't style-file defined
+--line 21 of file sn-bibliography.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 19 entries,
+You've used 20 entries,
             7385 wiz_defined-function locations,
-            1328 strings with 15812 characters,
-and the built_in function-call counts, 287860 in all, are:
-= -- 53491
-> -- 624
-< -- 273
-+ -- 32793
-- -- 199
-* -- 6691
-:= -- 50173
-add.period$ -- 29
-call.type$ -- 19
-change.case$ -- 169
-chr.to.int$ -- 709
-cite$ -- 19
-duplicate$ -- 832
-empty$ -- 3900
-format.name$ -- 449
-if$ -- 74475
+            1335 strings with 16120 characters,
+and the built_in function-call counts, 389728 in all, are:
+= -- 73852
+> -- 646
+< -- 277
++ -- 46536
+- -- 221
+* -- 8170
+:= -- 67094
+add.period$ -- 30
+call.type$ -- 20
+change.case$ -- 187
+chr.to.int$ -- 710
+cite$ -- 20
+duplicate$ -- 845
+empty$ -- 4190
+format.name$ -- 476
+if$ -- 101363
 int.to.chr$ -- 1
-int.to.str$ -- 33
+int.to.str$ -- 36
 missing$ -- 0
-newline$ -- 319
-num.names$ -- 86
-pop$ -- 430
+newline$ -- 330
+num.names$ -- 90
+pop$ -- 438
 preamble$ -- 1
-purify$ -- 89
+purify$ -- 95
 quote$ -- 0
-skip$ -- 32877
+skip$ -- 45486
 stack$ -- 0
-substring$ -- 26686
-swap$ -- 460
-text.length$ -- 290
+substring$ -- 36002
+swap$ -- 467
+text.length$ -- 316
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 760
+type$ -- 792
 warning$ -- 0
-while$ -- 618
+while$ -- 659
 width$ -- 0
-write$ -- 365
+write$ -- 378
+(There were 2 warnings)

@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{19}
+\begin{thebibliography}{20}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -157,13 +157,25 @@ pp. \bfpage{10096}--\blpage{10106}.
 %%% 7
 \bibitem{SEG:RandForest}
 \begin{botherref}
-\oauthor{\bsnm{SciKit-Learn}}:
-Random forest classifier.
-https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+\oauthor{\bsnm{Buitinck}, \binits{L.}},
+\oauthor{\bsnm{Louppe}, \binits{G.}}:
+Scikit-learn: Machine Learning in Python, Random Forest Classifier.
+\url{https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html}
 \end{botherref}
 \endbibitem
 
 %%% 8
+\bibitem{Fused-MBConv}
+\begin{botherref}
+\oauthor{\bsnm{Gupta}, \binits{S.}},
+\oauthor{\bsnm{Tan}, \binits{M.}}:
+EfficientNet-EdgeTPU: Creating Accelerator-Optimized Neural Networks with
+  AutoML.
+\url{https://ai.googleblog.com/2019/08/efficientnet-edgetpu-creating.html}
+\end{botherref}
+\endbibitem
+
+%%% 9
 \bibitem{bib1}
 \begin{barticle}
 \bauthor{\bsnm{Campbell}, \binits{S.L.}},
@@ -176,7 +188,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestC
 \end{barticle}
 \endbibitem
 
-%%% 9
+%%% 10
 \bibitem{bib2}
 \begin{barticle}
 \bauthor{\bsnm{Slifka}, \binits{M.K.}},
@@ -190,7 +202,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestC
 \end{barticle}
 \endbibitem
 
-%%% 10
+%%% 11
 \bibitem{bib3}
 \begin{barticle}
 \bauthor{\bsnm{Hamburger}, \binits{C.}}:
@@ -203,7 +215,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestC
 \end{barticle}
 \endbibitem
 
-%%% 11
+%%% 12
 \bibitem{bib4}
 \begin{bbook}
 \bauthor{\bsnm{Geddes}, \binits{K.O.}},
@@ -216,7 +228,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestC
 \end{bbook}
 \endbibitem
 
-%%% 12
+%%% 13
 \bibitem{bib5}
 \begin{bchapter}
 \bauthor{\bsnm{Broy}, \binits{M.}}:
@@ -231,7 +243,7 @@ pp. \bfpage{10}--\blpage{13}.
 \end{bchapter}
 \endbibitem
 
-%%% 13
+%%% 14
 \bibitem{bib6}
 \begin{bbook}
 \beditor{\bsnm{Seymour}, \binits{R.S.}} (ed.):
@@ -242,7 +254,7 @@ pp. \bfpage{10}--\blpage{13}.
 \end{bbook}
 \endbibitem
 
-%%% 14
+%%% 15
 \bibitem{bib7}
 \begin{bchapter}
 \bauthor{\bsnm{Smith}, \binits{S.E.}}:
@@ -257,7 +269,7 @@ pp. \bfpage{593}--\blpage{660}.
 \end{bchapter}
 \endbibitem
 
-%%% 15
+%%% 16
 \bibitem{bib8}
 \begin{botherref}
 \oauthor{\bsnm{Chung}, \binits{S.T.}},
@@ -271,7 +283,7 @@ Paper presented at the 3rd international symposium on the genetics of
 \end{botherref}
 \endbibitem
 
-%%% 16
+%%% 17
 \bibitem{bib9}
 \begin{botherref}
 \oauthor{\bsnm{Hao}, \binits{Z.}},
@@ -284,7 +296,7 @@ figshare \url{https://doi.org/10.6084/m9.figshare.853801}
 \end{botherref}
 \endbibitem
 
-%%% 17
+%%% 18
 \bibitem{bib10}
 \begin{botherref}
 \oauthor{\bsnm{Babichev}, \binits{S.A.}},
@@ -297,7 +309,7 @@ Preprint at \url{https://arxiv.org/abs/quant-ph/0208066v1}
 \end{botherref}
 \endbibitem
 
-%%% 18
+%%% 19
 \bibitem{bib11}
 \begin{barticle}
 \bauthor{\bsnm{Beneke}, \binits{M.}},
@@ -313,7 +325,7 @@ Preprint at \url{https://arxiv.org/abs/quant-ph/0208066v1}
 \end{barticle}
 \endbibitem
 
-%%% 19
+%%% 20
 \bibitem{bib12}
 \begin{botherref}
 \oauthor{\bsnm{Stahl}, \binits{B.}}:
