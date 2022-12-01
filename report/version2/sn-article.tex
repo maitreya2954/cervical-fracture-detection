@@ -100,7 +100,7 @@
 
 \abstract{\textbf{Purpose:} To develop a deep learning model for the detection and localization of cervical spine fractures in the axial CT scans. 
 
-\textbf{Methods:} We use the dataset consisting of cervical spine CT scans provided by the Radiological Society of North America (RSNA). The dataset consists of 2022 studies of individual patients for the training and testing combined. Out of these 2022 patient studies, 83 of these studies also contains segmentation data. Additionally, for x studies the dataset contains bounding box coordinates data. The dataset population is split into 90\% for training and 10\% for validation. We use EfficientNet\cite{bib1} to learn the segmentation, X model for detecting the fractures and Y model for drawing bounding boxes around the fracture area.
+\textbf{Methods:} We use the dataset consisting of cervical spine CT scans provided by the Radiological Society of North America (RSNA). The dataset consists of 3000 studies of individual patients for the training and testing combined. Out of these 3000 patient studies, 83 of these studies also contains segmentation data. Additionally, for x studies the dataset contains bounding box coordinates data. The dataset population is split into 90\% for training and 10\% for validation. We use EfficientNet\cite{bib1} to learn the segmentation, X model for detecting the fractures and Y model for drawing bounding boxes around the fracture area.
 
 \textbf{Results:} Results need to be updated
 
@@ -130,7 +130,7 @@
 
 \section{Introduction}\label{sec1}
 
-Cervical spine injury is very common injury with more than 3 million cases per year that are being evaluated for cervical spine injury in North America\cite{Milby:2008tt}. In United States, more than 1 million patients with blunt force injury are suspected to suffer cervical spine injury\cite{Minja:2018ud}. Since cervical spine injury is associated with high morbidity and mortality, quick diagnosis of the injury is crucial. Any delay in diagnosis may result in devastating consequences for the patient. Any additional aid to the radiologists can reduce the morbidity or mortality of the patient.
+Cervical spine injury is very common injury with more than 3 million cases per year that are being evaluated for cervical spine injury in North America\cite{Milby:2008tt}. In United States, more than 1 million patients with blunt force injury are suspected to suffer cervical spine injury\cite{Minja:2018ud}. Since cervical spine injury is associated with high morbidity and mortality, quick diagnosis of the injury is crucial. Any delay in diagnosis may result in devastating consequences for the patient. So, any additional aid to the radiologists can reduce the morbidity or mortality of the patient.
 
 In recent years, a machine deep learning technique known as deep convolutional neural network (DCNN) has been applied to image recognition tasks. DCNN's are well suited for images. So, they have been used extensively in the field of medicine to classify medical images. 
 
@@ -140,7 +140,9 @@ The purpose of our study is to develop an automated deep learning system for det
 
 \section{Methodology}\label{sec2}
 
-\subsection{This is an example for second level head---subsection head}\label{subsec2}
+\subsection{Dataset and Study Population}\label{subsec2}
+
+We use the dataset consisting of cervical spine CT scans provided by the Radiological Society of North America (RSNA). The dataset we are using is made up of roughly 3000 CT studies, from twelve locations and across six continents. Spine radiology specialists have provided annotations to indicate the presence, vertebral level and location of any cervical spine fractures. Each radiology study consists of multiple dcm files. A dcm file follows the Digital Imaging and Communications in Medicine (DICOM) format. It is the standard format used for storing medical images and related metadata. It dates back to 1983, although it has been revised many times. Out of these 3000 patient studies, 83 of these studies also contains segmentation data. Additionally, for x studies the dataset contains bounding box coordinates data. The dataset population is split into 90\% for training and 10\% for validation.
 
 \subsubsection{This is an example for third level head---subsubsection head}\label{subsubsec2}
 
