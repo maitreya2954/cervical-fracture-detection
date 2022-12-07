@@ -142,18 +142,74 @@ The purpose of our study is to develop an automated deep learning system for det
 
 \subsection{Dataset and Study Population}\label{subsec2}
 
-We use the dataset consisting of cervical spine CT scans provided by the Radiological Society of North America (RSNA). The dataset we are using is made up of roughly 3000 CT studies, from twelve locations and across six continents. Spine radiology specialists have provided annotations to indicate the presence, vertebral level and location of any cervical spine fractures. Each radiology study consists of multiple dcm files. A dcm file follows the Digital Imaging and Communications in Medicine (DICOM) format. It is the standard format used for storing medical images and related metadata. It dates back to 1983, although it has been revised many times. Out of these 3000 patient studies, 83 of these studies also contains segmentation data. Additionally, for x studies the dataset contains bounding box coordinates data. The dataset population is split into 90\% for training and 10\% for validation. The distribution of fractured and non-fractured dataset in the dataset is shown in the below two graphs.
+We use the dataset consisting of cervical spine CT scans provided by the Radiological Society of North America (RSNA)\cite{rsna-url}. The dataset we are using is made up of roughly 3000 CT studies, from twelve locations and across six continents. Spine radiology specialists have provided annotations to indicate the presence, vertebral level and location of any cervical spine fractures. Each radiology study consists of multiple dcm files. A dcm file follows the Digital Imaging and Communications in Medicine (DICOM) format. It is the standard format used for storing medical images and related metadata. It dates back to 1983, although it has been revised many times. Out of these 3000 patient studies, 83 of these studies also contains segmentation data. Additionally, for x studies the dataset contains bounding box coordinates data. The dataset population is split into 90\% for training and 10\% for validation. The distribution of fractured and non-fractured dataset in the dataset is shown in the below two graphs.
 
-Bar graph and pie graph for the dataset.
+\begin{figure}[H]
+\centering
+ \begin{minipage}[c]{1\textwidth}
+    \includegraphics[width=\textwidth]{fracture-distribution}
+    \caption{\centering\footnotesize{a) Number of patients with fractures (blue) and without fractures (red). b) Fracture distribution among the vertebrae C1, C2, C3, C4, C5, C6 and C7. }}
+    \label{fig:mesh1}
+\end{minipage}
+\end{figure}
 
-\subsubsection{Segmentation}\label{subsubsec1}
+\subsection{Data Pre-processing}
+
+\subsubsection{Windowing}
+
+Every CT radiograph contains details of multiple tissues. To highlight only certain anatomical features of the radiograph we use \emph{windowing}. Windowing, also known as grey-level mapping, contrast stretching, histogram modification or contrast enhancement is the process in which the CT image greyscale component of an image is manipulated via the CT numbers. The CT numbers are represented in terms of Hounsfield Units (HU).
+
+\vspace*{-5mm}
+\begin{figure}[H]
+ \begin{minipage}[c]{1\textwidth}
+ \centering
+    \includegraphics[width=0.8\textwidth]{hu}
+    \caption{\centering\footnotesize{ Hounsfield Units for different mediums. }}
+    \label{fig:mesh2}
+\end{minipage}
+\end{figure}
+
+\vspace*{-5mm}
+The CT scans are manipulated using \emph{window width} and \emph{window level}. The window width is the measure of range of different CT numbers. The Window Level (WL) refers to the window centre or midpoint HU value that is represented on the window setting. For our project we use window width of X and window level of Y\cite{DBLP:journals/corr/abs-1812-00572}.
+
+\vspace*{-5mm}
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.5\textwidth}
+    \centering
+    \includegraphics[height=0.55\textwidth]{windowing-impact-1}
+    
+    \label{fig:mesh3.1}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.5\textwidth}
+    \centering
+    \includegraphics[height=0.55\textwidth]{windowing-impact-2}
+    \label{fig:mesh3.2}
+\end{minipage}
+\caption{\centering\footnotesize{Impact of window width on the appearnace of a CT scan. }}
+\end{figure}
+
+\subsubsection{Resizing}
+
+Almost all images have size 512x512. We therefore resized the other dimension images to  size 512x512.
+
+\vspace*{-5mm}
+\begin{figure}[H]
+ \begin{minipage}[c]{1\textwidth}
+ \centering
+    \includegraphics[width=\textwidth]{resizing}
+    \caption{\centering\footnotesize{ Image size in train images. }}
+    \label{fig:mesh4}
+\end{minipage}
+\end{figure}
+
+\subsection{Segmentation}\label{subsubsec1}
 
 Segmentation involves classification of CT radiographs into C1 to C7 labels. Using the 83 studies which have segmentation data. We train Random Forest classifier\cite{SEG:RandForest} and EfficientNetV2\cite{DBLP:conf/icml/TanL21}. Correct vertebrae labels are essential when training the fracture prediction model. First we extract vertebrae targets from 83 segmentation files.
 
 \begin{table}[!h]
 \centering
-\begin{tabular}{|c|c|c|}
-\hline
+\begin{tabular}{c|c|c}
 \textbf{Vetebrae} & \textbf{\begin{tabular}[c]{@{}c@{}}Random Forest \\ Classifier\end{tabular}} & \textbf{EfficientNetV2} \\ \hline
 C1 & 0.8891 & 0.9621 \\ \hline
 C2 & 0.8898 & 0.9409 \\ \hline
@@ -168,9 +224,40 @@ Overall & 0.8841 & 0.9513 \\ \hline
 	{\centering\small Accuracies of the models for the segmentation}
 \end{table}
 
-From Table 1, we can see that EfficientNet performs well compared to the Random Forest Classifier. EfficientNetV2 is a new family of convolutional networks that have faster training speed and better parameter efficiency than previous models. To develop these models, a combination of training-aware neural architecture search and scaling was used to jointly optimize training speed and parameter efficiency. The models were searched from the search space enriched with new ops such as Fused-MBConv\cite{Fused-MBConv}. Experiments show that EfficientNetV2 models train much faster than state-of-the-art models while being up to 6.8x smaller. With progressive learning, EfficientNetV2 significantly outperforms previous models on ImageNet and CIFAR/Cars/Flowers datasets. By pretraining on the same ImageNet21k, EfficientNetV2 achieves 87.3\% top-1 accuracy on ImageNet ILSVRC2012, outperforming the recent ViT by 2.0\% accuracy while training 5x-11x faster using the same computing resources
+From Table 1, we can see that EfficientNet performs well compared to the Random Forest Classifier. EfficientNetV2 is a new family of convolutional networks that have faster training speed and better parameter efficiency than previous models. To develop these models, a combination of training-aware neural architecture search and scaling was used to jointly optimize training speed and parameter efficiency. The models were searched from the search space enriched with new ops such as Fused-MBConv\cite{Fused-MBConv}. Experiments show that EfficientNetV2 models train much faster than state-of-the-art models while being up to 6.8x smaller. With transfer learning, EfficientNetV2 significantly outperforms previous models on ImageNet and CIFAR/Cars/Flowers datasets\cite{DBLP:conf/icml/TanL21}. By pretraining on the same ImageNet21k, EfficientNetV2 achieves 87.3\% top-1 accuracy on ImageNet ILSVRC2012, outperforming the recent ViT by 2.0\% accuracy while training 5x-11x faster using the same computing resources.
+
+Below are the prediction probabilities of 3 study samples for each vertebrae.
+\begin{figure}[H]
+ \begin{minipage}[c]{1\textwidth}
+ \centering
+    \includegraphics[width=\textwidth]{vertebrae-prediction-1}
+    \label{fig:mesh5.1}
+\end{minipage}
+\begin{minipage}[c]{1\textwidth}
+ \centering
+    \includegraphics[width=\textwidth]{vertebrae-prediction-2}
+    \label{fig:mesh5.2}
+\end{minipage}
+ \begin{minipage}[c]{1\textwidth}
+ \centering
+    \includegraphics[width=\textwidth]{vertebrae-prediction-3}
+    \label{fig:mesh5.3}
+\end{minipage}
+\caption{\centering\footnotesize{ Vertebrae prediction by slice for 3 study samples. }}
+\end{figure}
 
 \subsubsection{Fracture Detection}\label{subsubsec2}
+
+Fracture detection involves classifying a slice if a fracture is present or not. The training data consists 
+
+\begin{figure}[H]
+ \begin{minipage}[c]{1\textwidth}
+ \centering
+    \includegraphics[width=\textwidth]{effnetfracture}
+    \caption{\centering\footnotesize{ Fracture detection using EffNetV2. }}
+    \label{fig:mesh6}
+\end{minipage}
+\end{figure}
 
 \subsubsection{Localization}\label{subsubsec3}
 

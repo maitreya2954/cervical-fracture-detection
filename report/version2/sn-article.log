@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.8)  1 DEC 2022 00:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.8)  6 DEC 2022 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -564,12 +564,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip65
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 1486.
-Package hyperref Info: Option `breaklinks' set `true' on input line 1486.
-Package hyperref Info: Option `plainpages' set `false' on input line 1486.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 1486.
+Package hyperref Info: Option `colorlinks' set `true' on input line 1487.
+Package hyperref Info: Option `breaklinks' set `true' on input line 1487.
+Package hyperref Info: Option `plainpages' set `false' on input line 1487.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 1487.
 Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 148
-6.
+7.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen301
 \WF@size=\dimen302
@@ -760,10 +760,8 @@ the detec-tion
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 130--130
- \OT1/cmr/m/n/9 Y model for draw-ing bound-ing boxes around the frac-ture area.
- 
- []
+Package natbib Warning: Citation `DBLP:conf/icml/TanL21' on page 1 undefined on
+ input line 130.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 130--130
@@ -790,29 +788,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--130
 LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 13
 0.
 
+Package natbib Warning: Citation `Milby:2008tt' on page 1 undefined on input li
+ne 133.
+
+
+Package natbib Warning: Citation `Minja:2018ud' on page 1 undefined on input li
+ne 133.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 155.
+
+Package natbib Warning: Citation `Olczak:2017aa' on page 2 undefined on input l
+ine 137.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 155.
+Package natbib Warning: Citation `Kim:2018aa' on page 2 undefined on input line
+ 137.
 
 
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.015> not available
-(Font)              size <5> substituted on input line 155.
+Package natbib Warning: Citation `Chung:2018aa' on page 2 undefined on input li
+ne 137.
 
 
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 155.
+Package natbib Warning: Citation `rsna-url' on page 2 undefined on input line 1
+45.
 
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 155.
-
+<./screenshots/fracture-distribution.png, id=72, 986.68625pt x 341.275pt>
+File: ./screenshots/fracture-distribution.png Graphic file (type png)
+<use ./screenshots/fracture-distribution.png>
+Package pdftex.def Info: ./screenshots/fracture-distribution.png  used on input
+ line 150.
+(pdftex.def)             Requested size: 338.58778pt x 117.1099pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -821,27 +831,130 @@ Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
 [2]
+<./screenshots/hu.png, id=79, 1410.26875pt x 523.9575pt>
+File: ./screenshots/hu.png Graphic file (type png)
+<use ./screenshots/hu.png>
+Package pdftex.def Info: ./screenshots/hu.png  used on input line 166.
+(pdftex.def)             Requested size: 270.87125pt x 100.63226pt.
+
+
+Package natbib Warning: Citation `DBLP:journals/corr/abs-1812-00572' on page 3 
+undefined on input line 173.
+
+<./screenshots/windowing-impact-1.png, id=80, 678.535pt x 381.425pt>
+File: ./screenshots/windowing-impact-1.png Graphic file (type png)
+<use ./screenshots/windowing-impact-1.png>
+Package pdftex.def Info: ./screenshots/windowing-impact-1.png  used on input li
+ne 180.
+(pdftex.def)             Requested size: 165.63684pt x 93.11215pt.
+<./screenshots/windowing-impact-2.png, id=81, 682.55pt x 414.54875pt>
+File: ./screenshots/windowing-impact-2.png Graphic file (type png)
+<use ./screenshots/windowing-impact-2.png>
+Package pdftex.def Info: ./screenshots/windowing-impact-2.png  used on input li
+ne 186.
+(pdftex.def)             Requested size: 153.30675pt x 93.11215pt.
+<./screenshots/resizing.png, id=82, 1111.5126pt x 370.0224pt>
+File: ./screenshots/resizing.png Graphic file (type png)
+<use ./screenshots/resizing.png>
+Package pdftex.def Info: ./screenshots/resizing.png  used on input line 200.
+(pdftex.def)             Requested size: 338.58778pt x 112.71268pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[3] (./sn-article.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 160--166
+[3 <./screenshots/fracture-distribution.png> <./screenshots/hu.png (PNG copy)> 
+<./screenshots/windowing-impact-1.png> <./screenshots/windowing-impact-2.png>]
+
+Package natbib Warning: Citation `SEG:RandForest' on page 4 undefined on input 
+line 208.
+
+
+Package natbib Warning: Citation `DBLP:conf/icml/TanL21' on page 4 undefined on
+ input line 208.
+
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 212.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.015> not available
+(Font)              size <5> substituted on input line 212.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.015> not available
+(Font)              size <5> substituted on input line 212.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.015> not available
+(Font)              size <5> substituted on input line 212.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.015> not available
+(Font)              size <5> substituted on input line 212.
+
+
+Package natbib Warning: Citation `Fused-MBConv' on page 4 undefined on input li
+ne 227.
+
+
+Package natbib Warning: Citation `DBLP:conf/icml/TanL21' on page 4 undefined on
+ input line 227.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.44444pt too high) has occurred while \output is active []
+
+
+[4 <./screenshots/resizing.png>]
+<./screenshots/vertebrae-prediction-1.png, id=101, 978.65625pt x 282.05376pt>
+File: ./screenshots/vertebrae-prediction-1.png Graphic file (type png)
+<use ./screenshots/vertebrae-prediction-1.png>
+Package pdftex.def Info: ./screenshots/vertebrae-prediction-1.png  used on inpu
+t line 233.
+(pdftex.def)             Requested size: 338.58778pt x 97.58408pt.
+<./screenshots/vertebrae-prediction-2.png, id=102, 978.65625pt x 282.05376pt>
+File: ./screenshots/vertebrae-prediction-2.png Graphic file (type png)
+<use ./screenshots/vertebrae-prediction-2.png>
+Package pdftex.def Info: ./screenshots/vertebrae-prediction-2.png  used on inpu
+t line 238.
+(pdftex.def)             Requested size: 338.58778pt x 97.58408pt.
+<./screenshots/vertebrae-prediction-3.png, id=103, 978.65625pt x 282.05376pt>
+File: ./screenshots/vertebrae-prediction-3.png Graphic file (type png)
+<use ./screenshots/vertebrae-prediction-3.png>
+Package pdftex.def Info: ./screenshots/vertebrae-prediction-3.png  used on inpu
+t line 243.
+(pdftex.def)             Requested size: 338.58778pt x 97.58408pt.
+<./screenshots/effnetfracture.png, id=104, 843.15pt x 460.72125pt>
+File: ./screenshots/effnetfracture.png Graphic file (type png)
+<use ./screenshots/effnetfracture.png>
+Package pdftex.def Info: ./screenshots/effnetfracture.png  used on input line 2
+54.
+(pdftex.def)             Requested size: 338.58778pt x 185.01636pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.44444pt too high) has occurred while \output is active []
+
+
+[5 <./screenshots/vertebrae-prediction-1.png> <./screenshots/vertebrae-predicti
+on-2.png> <./screenshots/vertebrae-prediction-3.png>] (./sn-article.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.44444pt too high) has occurred while \output is active []
+
+
+[6 <./screenshots/effnetfracture.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 182--188
 \OT1/cmr/m/n/10 Ran-dom For-est Clas-si-fier. [][]$https : / / scikit-[]learn .
  org / stable / modules /
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (1.44444pt too high) has occurred while \output is active []
-
-
-[4]
-Underfull \hbox (badness 2600) in paragraph at lines 170--177
+Underfull \hbox (badness 2600) in paragraph at lines 192--199
 []\OT1/cmr/m/n/10 Gupta, S., Tan, M.: EfficientNet-EdgeTPU: Cre-at-ing Accelera
 tor-
  []
@@ -853,70 +966,55 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[5])
+[7])
+
+Package natbib Warning: There were undefined citations.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[6] (./sn-article.aux)
+[8] (./sn-article.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `sn-article.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `sn-article.out':
-(rerunfilecheck)             Before: E9BABE803F638BC3F4267B1A0CC307EB;1959
-(rerunfilecheck)             After:  532E6EB89A6B636D0C51D3D031FC8D08;1289.
+Package rerunfilecheck Info: File `sn-article.out' has not changed.
+(rerunfilecheck)             Checksum: AFD4A6E7ECC9330ABA5F721D01414514;1653.
  ) 
 Here is how much of TeX's memory you used:
- 14415 strings out of 478268
- 218474 string characters out of 5846348
- 521667 words of memory out of 5000000
- 32339 multiletter control sequences out of 15000+600000
+ 14496 strings out of 478268
+ 221905 string characters out of 5846348
+ 522673 words of memory out of 5000000
+ 32412 multiletter control sequences out of 15000+600000
  493904 words of font info for 127 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 75i,14n,77p,1045b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section.8} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.7} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.6} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.4.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.
-pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
-fb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
-b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/te
-xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/tex
-live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on sn-article.pdf (6 pages, 179661 bytes).
+ 75i,14n,77p,1069b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy
+8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10
+.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pf
+b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texl
+ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on sn-article.pdf (8 pages, 1562089 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 223 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
 

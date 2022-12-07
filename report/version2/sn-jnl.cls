@@ -295,6 +295,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Standard LaTeX Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \usepackage{graphicx}%
+\graphicspath{ {./screenshots} }
 \usepackage{multirow}%
 \usepackage{amsmath,amssymb,amsfonts}%
 \usepackage{amsthm}%

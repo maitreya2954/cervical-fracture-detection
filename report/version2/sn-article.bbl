@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{20}
+\begin{thebibliography}{10}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -155,6 +155,28 @@ pp. \bfpage{10096}--\blpage{10106}.
 \endbibitem
 
 %%% 7
+\bibitem{rsna-url}
+\begin{botherref}
+Radiology Society of North America.
+\url{https://www.rsna.org/}
+\end{botherref}
+\endbibitem
+
+%%% 8
+\bibitem{DBLP:journals/corr/abs-1812-00572}
+\begin{botherref}
+\oauthor{\bsnm{Lee}, \binits{H.}},
+\oauthor{\bsnm{Kim}, \binits{M.}},
+\oauthor{\bsnm{Do}, \binits{S.}}:
+Practical window setting optimization for medical image deep learning.
+CoRR
+\textbf{abs/1812.00572}
+(2018)
+{\href{https://arxiv.org/abs/1812.00572}{{1812.00572}}}
+\end{botherref}
+\endbibitem
+
+%%% 9
 \bibitem{SEG:RandForest}
 \begin{botherref}
 \oauthor{\bsnm{Buitinck}, \binits{L.}},
@@ -164,7 +186,7 @@ Scikit-learn: Machine Learning in Python, Random Forest Classifier.
 \end{botherref}
 \endbibitem
 
-%%% 8
+%%% 10
 \bibitem{Fused-MBConv}
 \begin{botherref}
 \oauthor{\bsnm{Gupta}, \binits{S.}},
@@ -172,168 +194,6 @@ Scikit-learn: Machine Learning in Python, Random Forest Classifier.
 EfficientNet-EdgeTPU: Creating Accelerator-Optimized Neural Networks with
   AutoML.
 \url{https://ai.googleblog.com/2019/08/efficientnet-edgetpu-creating.html}
-\end{botherref}
-\endbibitem
-
-%%% 9
-\bibitem{bib1}
-\begin{barticle}
-\bauthor{\bsnm{Campbell}, \binits{S.L.}},
-\bauthor{\bsnm{Gear}, \binits{C.W.}}:
-\batitle{The index of general nonlinear {D}{A}{E}{S}}.
-\bjtitle{Numer. {M}ath.}
-\bvolume{72}(\bissue{2}),
-\bfpage{173}--\blpage{196}
-(\byear{1995})
-\end{barticle}
-\endbibitem
-
-%%% 10
-\bibitem{bib2}
-\begin{barticle}
-\bauthor{\bsnm{Slifka}, \binits{M.K.}},
-\bauthor{\bsnm{Whitton}, \binits{J.L.}}:
-\batitle{Clinical implications of dysregulated cytokine production}.
-\bjtitle{J. {M}ol. {M}ed.}
-\bvolume{78},
-\bfpage{74}--\blpage{80}
-(\byear{2000}).
-\doiurl{10.1007/s001090000086}
-\end{barticle}
-\endbibitem
-
-%%% 11
-\bibitem{bib3}
-\begin{barticle}
-\bauthor{\bsnm{Hamburger}, \binits{C.}}:
-\batitle{Quasimonotonicity, regularity and duality for nonlinear systems of
-  partial differential equations}.
-\bjtitle{Ann. Mat. Pura. Appl.}
-\bvolume{169}(\bissue{2}),
-\bfpage{321}--\blpage{354}
-(\byear{1995})
-\end{barticle}
-\endbibitem
-
-%%% 12
-\bibitem{bib4}
-\begin{bbook}
-\bauthor{\bsnm{Geddes}, \binits{K.O.}},
-\bauthor{\bsnm{Czapor}, \binits{S.R.}},
-\bauthor{\bsnm{Labahn}, \binits{G.}}:
-\bbtitle{Algorithms for {C}omputer {A}lgebra}.
-\bpublisher{Kluwer},
-\blocation{Boston}
-(\byear{1992})
-\end{bbook}
-\endbibitem
-
-%%% 13
-\bibitem{bib5}
-\begin{bchapter}
-\bauthor{\bsnm{Broy}, \binits{M.}}:
-\bctitle{Software engineering---from auxiliary to key technologies}.
-In: \beditor{\bsnm{Broy}, \binits{M.}},
-\beditor{\bsnm{Denert}, \binits{E.}} (eds.)
-\bbtitle{Software Pioneers},
-pp. \bfpage{10}--\blpage{13}.
-\bpublisher{Springer},
-\blocation{New {Y}ork}
-(\byear{1992})
-\end{bchapter}
-\endbibitem
-
-%%% 14
-\bibitem{bib6}
-\begin{bbook}
-\beditor{\bsnm{Seymour}, \binits{R.S.}} (ed.):
-\bbtitle{Conductive {P}olymers}.
-\bpublisher{Plenum},
-\blocation{New {Y}ork}
-(\byear{1981})
-\end{bbook}
-\endbibitem
-
-%%% 15
-\bibitem{bib7}
-\begin{bchapter}
-\bauthor{\bsnm{Smith}, \binits{S.E.}}:
-\bctitle{Neuromuscular blocking drugs in man}.
-In: \beditor{\bsnm{Zaimis}, \binits{E.}} (ed.)
-\bbtitle{Neuromuscular Junction. {H}andbook of Experimental Pharmacology},
-vol. \bseriesno{42},
-pp. \bfpage{593}--\blpage{660}.
-\bpublisher{Springer},
-\blocation{Heidelberg}
-(\byear{1976})
-\end{bchapter}
-\endbibitem
-
-%%% 16
-\bibitem{bib8}
-\begin{botherref}
-\oauthor{\bsnm{Chung}, \binits{S.T.}},
-\oauthor{\bsnm{Morris}, \binits{R.L.}}:
-Isolation and characterization of plasmid deoxyribonucleic acid from
-  Streptomyces fradiae.
-Paper presented at the 3rd international symposium on the genetics of
-  industrial microorganisms, University of {W}isconsin, {M}adison, 4--9 June
-  1978
-(1978)
-\end{botherref}
-\endbibitem
-
-%%% 17
-\bibitem{bib9}
-\begin{botherref}
-\oauthor{\bsnm{Hao}, \binits{Z.}},
-\oauthor{\bsnm{AghaKouchak}, \binits{A.}},
-\oauthor{\bsnm{Nakhjiri}, \binits{N.}},
-\oauthor{\bsnm{Farahmand}, \binits{A.}}:
-Global integrated drought monitoring and prediction system (GIDMaPS) data sets.
-figshare \url{https://doi.org/10.6084/m9.figshare.853801}
-(2014)
-\end{botherref}
-\endbibitem
-
-%%% 18
-\bibitem{bib10}
-\begin{botherref}
-\oauthor{\bsnm{Babichev}, \binits{S.A.}},
-\oauthor{\bsnm{Ries}, \binits{J.}},
-\oauthor{\bsnm{Lvovsky}, \binits{A.I.}}:
-Quantum scissors: teleportation of single-mode optical states by means of a
-  nonlocal single photon.
-Preprint at \url{https://arxiv.org/abs/quant-ph/0208066v1}
-(2002)
-\end{botherref}
-\endbibitem
-
-%%% 19
-\bibitem{bib11}
-\begin{barticle}
-\bauthor{\bsnm{Beneke}, \binits{M.}},
-\bauthor{\bsnm{Buchalla}, \binits{G.}},
-\bauthor{\bsnm{Dunietz}, \binits{I.}}:
-\batitle{Mixing induced {CP} asymmetries in inclusive {B} decays}.
-\bjtitle{Phys. {L}ett.}
-\bvolume{B393},
-\bfpage{132}--\blpage{142}
-(\byear{1997})
-{\href{https://arxiv.org/abs/0707.3168}{{arXiv:0707.3168}}}
-{[gr-gc]}
-\end{barticle}
-\endbibitem
-
-%%% 20
-\bibitem{bib12}
-\begin{botherref}
-\oauthor{\bsnm{Stahl}, \binits{B.}}:
-Deep{SIP}: Deep Learning of {S}upernova {I}a {P}arameters,
-0.42,
-Astrophysics {S}ource {C}ode {L}ibrary
-(2020),
-{\href{https://ascl.net/2006.023}{{ascl:2006.023}}}
 \end{botherref}
 \endbibitem
 
