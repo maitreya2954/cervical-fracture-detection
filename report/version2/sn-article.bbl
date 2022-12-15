@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{14}
+\begin{thebibliography}{16}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -271,6 +271,42 @@ Scikit-learn: Machine Learning in Python, Random Forest Classifier.
 \endbibitem
 
 %%% 14
+\bibitem{glenn_jocher_2022_7347926}
+\begin{botherref}
+\oauthor{\bsnm{Jocher}, \binits{G.}},
+\oauthor{\bsnm{Chaurasia}, \binits{A.}},
+\oauthor{\bsnm{Stoken}, \binits{A.}},
+\oauthor{\bsnm{Borovec}, \binits{J.}},
+\oauthor{\bsnm{NanoCode012}},
+\oauthor{\bsnm{Kwon}, \binits{Y.}},
+\oauthor{\bsnm{Michael}, \binits{K.}},
+\oauthor{\bsnm{TaoXie}},
+\oauthor{\bsnm{Fang}, \binits{J.}},
+\oauthor{\bsnm{imyhxy}},
+\oauthor{\bsnm{Lorna}},
+\oauthor{\bsnm{Wong}, \binits{C.}},
+\oauthor{\bsnm{V}, \binits{A.}},
+\oauthor{\bsnm{Montes}, \binits{D.}},
+\oauthor{\bsnm{Wang}, \binits{Z.}},
+\oauthor{\bsnm{Fati}, \binits{C.}},
+\oauthor{\bsnm{Nadar}, \binits{J.}},
+\oauthor{\bsnm{Laughing}},
+\oauthor{\bsnm{UnglvKitDe}},
+\oauthor{\bsnm{Sonck}, \binits{V.}},
+\oauthor{\bsnm{tkianai}},
+\oauthor{\bsnm{yxNONG}},
+\oauthor{\bsnm{Skalski}, \binits{P.}},
+\oauthor{\bsnm{Hogan}, \binits{A.}},
+\oauthor{\bsnm{Nair}, \binits{D.}},
+\oauthor{\bsnm{Strobel}, \binits{M.}},
+\oauthor{\bsnm{Jain}, \binits{M.}}:
+{ultralytics/yolov5: V7.0 - YOLOv5 SOTA Realtime Instance Segmentation}.
+\doiurl{10.5281/zenodo.7347926}.
+\url{https://doi.org/10.5281/zenodo.7347926}
+\end{botherref}
+\endbibitem
+
+%%% 15
 \bibitem{Fused-MBConv}
 \begin{botherref}
 \oauthor{\bsnm{Gupta}, \binits{S.}},
@@ -278,6 +314,21 @@ Scikit-learn: Machine Learning in Python, Random Forest Classifier.
 EfficientNet-EdgeTPU: Creating Accelerator-Optimized Neural Networks with
   AutoML.
 \url{https://ai.googleblog.com/2019/08/efficientnet-edgetpu-creating.html}
+\end{botherref}
+\endbibitem
+
+%%% 16
+\bibitem{su14138117}
+\begin{botherref}
+\oauthor{\bsnm{Golding}, \binits{V.P.}},
+\oauthor{\bsnm{Gharineiat}, \binits{Z.}},
+\oauthor{\bsnm{Munawar}, \binits{H.S.}},
+\oauthor{\bsnm{Ullah}, \binits{F.}}:
+Crack detection in concrete structures using deep learning.
+Sustainability
+\textbf{14}(13)
+(2022).
+\doiurl{10.3390/su14138117}
 \end{botherref}
 \endbibitem
 

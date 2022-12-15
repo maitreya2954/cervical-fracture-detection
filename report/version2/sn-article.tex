@@ -88,10 +88,8 @@
 \author{\fnm{Naman} \sur{Raghuvanshi}}\email{nvr5386@psu.edu}
 
 \author{\fnm{Siddharth} \sur{Rayabharam}}\email{nqr5356@psu.edu}
-\equalcont{These authors contributed equally to this work.}
 
 \author{\fnm{Sumant} \sur{Suryawanshi}}\email{szs7220.psu.edu}
-\equalcont{These authors contributed equally to this work.}
 
 
 %%==================================%%
@@ -209,9 +207,34 @@ Almost all images have size 512x512. We therefore resized the other dimension im
 \end{minipage}
 \end{figure}
 
-\subsection{Segmentation}\label{subsubsec1}
+\subsection{Detection}\label{subsec1}
 
-Segmentation involves classification of CT radiographs into C1 to C7 labels. Using the 83 studies which have segmentation data. We train Random Forest classifier\cite{SEG:RandForest} and EfficientNetV2\cite{DBLP:conf/icml/TanL21}. Correct vertebrae labels are essential when training the fracture prediction model. First we extract vertebrae targets from 83 segmentation files.
+We perform fracture detection in the two phases. The first phase is segmentation of all the available study slices of CT radiographs whereas the second phase is fracture detection and localization, which is done by displaying bounding boxes covering fractures. The flow of the training dataset is described in the below figure.
+
+\begin{figure}[H]
+ \begin{minipage}[c]{1\textwidth}
+ \centering
+    \includegraphics[width=\textwidth]{methodology}
+    \caption{\centering\footnotesize{ Data flow in model training. }}
+    \label{fig:flow}
+\end{minipage}
+\end{figure}
+
+\subsubsection{Segmentation}
+
+Segmentation involves classification of CT radiographs into C1 to C7 labels. Using the 83 studies which have segmentation data, we train Random Forest classifier\cite{SEG:RandForest} and EfficientNetV2\cite{DBLP:conf/icml/TanL21}. First we extract vertebrae targets from 83 segmentation files and use them for training. The trained segmentation models take the slices as the input and output the one-hot encoded labels for each slice indicating the vertebrae the slice belongs. Correct vertebrae labels are essential when training the fracture prediction model. 
+
+\subsubsection{Fracture Detection and Localization}
+
+The fracture detection data consists of data indicating which vertebrae has fracture in a particular CT examination (each CT examination contains many slices). Therefore, we store the labels predicted by the segmentation model and merge them with the fracture detection data to obtain the information if a slice in an examination has fracture or not. The model is then trained on this merged data to predict fractures in a particular slice of a CT examination. EfficientNetV2 and YOLOv5\cite{glenn_jocher_2022_7347926}. 
+
+Localization here, refers to highlighting or bounding the fracture with box in the CT radiograph. EfficientNetV2 only produces the fracture detections and not the localization whereas the YOLOv5 model predicts the fractures and localizes the fractures. YOLOv5 model also provides the confidence measure of fracture in the bounding box.
+
+\section{Results}\label{sec3}
+
+\subsection{Segmentation}
+
+From Table 1, we can see that EfficientNet performs well compared to the Random Forest Classifier. EfficientNetV2 is a new family of convolutional networks that have faster training speed and better parameter efficiency than previous models. To develop these models, a combination of training-aware neural architecture search and scaling was used to jointly optimize training speed and parameter efficiency. The models were searched from the search space enriched with new ops such as Fused-MBConv\cite{Fused-MBConv}. Experiments show that EfficientNetV2 models train much faster than state-of-the-art models while being up to 6.8x smaller. With transfer learning, EfficientNetV2 significantly outperforms previous models on ImageNet and CIFAR/Cars/Flowers datasets\cite{DBLP:conf/icml/TanL21}. By pretraining on the same ImageNet21k, EfficientNetV2 achieves 87.3\% top-1 accuracy on ImageNet ILSVRC2012, outperforming the recent ViT by 2.0\% accuracy while training 5x-11x faster using the same computing resources.
 
 \begin{table}[!h]
 \centering
@@ -230,11 +253,26 @@ Overall & 0.8841 & 0.9513 \\ \hline
 	{\centering\small Accuracies of the models for the segmentation}
 \end{table}
 
-From Table 1, we can see that EfficientNet performs well compared to the Random Forest Classifier. EfficientNetV2 is a new family of convolutional networks that have faster training speed and better parameter efficiency than previous models. To develop these models, a combination of training-aware neural architecture search and scaling was used to jointly optimize training speed and parameter efficiency. The models were searched from the search space enriched with new ops such as Fused-MBConv\cite{Fused-MBConv}. Experiments show that EfficientNetV2 models train much faster than state-of-the-art models while being up to 6.8x smaller. With transfer learning, EfficientNetV2 significantly outperforms previous models on ImageNet and CIFAR/Cars/Flowers datasets\cite{DBLP:conf/icml/TanL21}. By pretraining on the same ImageNet21k, EfficientNetV2 achieves 87.3\% top-1 accuracy on ImageNet ILSVRC2012, outperforming the recent ViT by 2.0\% accuracy while training 5x-11x faster using the same computing resources.
+The EffNetV2 model is validated using the k-fold ($k=5$) validation technique. The validation loss and accuracy of the model for $k$ different runs.
+
+\begin{figure}[H]
+ \begin{minipage}[c]{0.5\textwidth}
+ \centering
+    \includegraphics[width=\textwidth]{seg_loss}
+    \label{fig:mesh5.1}
+\end{minipage}
+\begin{minipage}[c]{0.5\textwidth}
+ \centering
+    \includegraphics[width=\textwidth]{seg_eval_acc}
+    \label{fig:mesh5.2}
+\end{minipage}
+\caption{\centering\footnotesize{ The validation loss and accuracy of EffNetV2 for differnt runs. }}
+\end{figure}
 
 Below are the prediction probabilities of 3 study samples for each vertebrae.
+
 \begin{figure}[H]
- \begin{minipage}[c]{1\textwidth}
+\begin{minipage}[c]{1\textwidth}
  \centering
     \includegraphics[width=\textwidth]{vertebrae-prediction-1}
     \label{fig:mesh5.1}
@@ -244,7 +282,7 @@ Below are the prediction probabilities of 3 study samples for each vertebrae.
     \includegraphics[width=\textwidth]{vertebrae-prediction-2}
     \label{fig:mesh5.2}
 \end{minipage}
- \begin{minipage}[c]{1\textwidth}
+\begin{minipage}[c]{1\textwidth}
  \centering
     \includegraphics[width=\textwidth]{vertebrae-prediction-3}
     \label{fig:mesh5.3}
@@ -252,56 +290,55 @@ Below are the prediction probabilities of 3 study samples for each vertebrae.
 \caption{\centering\footnotesize{ Vertebrae prediction by slice for 3 study samples. }}
 \end{figure}
 
-\subsubsection{Fracture Detection}\label{subsubsec2}
+\subsection{Fracture Detection}\label{subsubsec2}
 
-Fracture detection involves classifying a slice if a fracture is present or not. The training data consists 
+EffNetV2 and YOLOv5 have been trained on the dataset to detect fractures on the CT radiographs. The results of these two models are discussed below
 
-\begin{figure}[H]
- \begin{minipage}[c]{1\textwidth}
- \centering
-    \includegraphics[width=\textwidth]{effnetfracture}
-    \caption{\centering\footnotesize{ Fracture detection using EffNetV2. }}
-    \label{fig:mesh6}
-\end{minipage}
-\end{figure}
+\subsubsection{EffNetV2}
 
-\subsubsection{Localization}\label{subsubsec3}
+Need to EffNet results here
 
-\section{Results}\label{sec3}
 
-\section{Discussion}\label{sec12}
+\subsubsection{YOLOv5}
 
-Discussions should be brief and focused. In some disciplines use of Discussion or `Conclusion' is interchangeable. It is not mandatory to use both. Some journals prefer a section `Results and Discussion' followed by a section `Conclusion'. Please refer to Journal-level guidance for any specific requirements. 
+The accuracy acheived by the YOLOv5 model is 94\% in fracture detection and localization. Table 2 shows the performance metrics of the model. Similarly, Table 3 shows the average performance of the model.
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{|ccccc|}\hline
+ & \textbf{Precision} & \textbf{Recall} & \textbf{f1-score} & \textbf{support} \\\hline
+\textbf{Normal} & 0.73 & 0.84 & 0.78 & 200 \\ \hline
+\textbf{Fractured} & 0.98 & 0.96 & 0.97 & 1444\\\hline
+\end{tabular}
+\caption{\centering\footnotesize{ Performance metrics }}
+\end{table}
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{|ccccc|}\hline
+ & \textbf{Precision} & \textbf{Recall} & \textbf{f1-score} & \textbf{support} \\\hline
+\textbf{Accuracy} &  &  &  & 1644 \\\hline
+\textbf{Macro Avg} & 0.85 & 0.90 & 0.88 & 1644 \\\hline
+\textbf{Weighted Avg} & 0.95 & 0.94 & 0.95 & 1644\\\hline
+\end{tabular}
+\caption{\centering\footnotesize{ Average performance metrics }}
+\end{table}
+
+
+
+
+\section{Future Works}\label{sec12}
+
+Future works can implement include fracture highlighting which will create a highlight on top of the predicted bone crack. We intend to use the study to detect cracks in concrete structures using deep learning and image manipulation techniques\cite{su14138117}. 
+
+On the other hand, current flow of prediction can be improved by creating an ensemble of two models or by create a single model to perform segmentation, fracture detection and localization tasks. Further improvements can be made in segmentation model to impose monotonicity on the predictions i.e., to reduce predictions where the slice is predicted to be in two or more vertebrae.
 
 \section{Conclusion}\label{sec13}
 
-Conclusions may be used to restate your hypothesis or research question, restate your major findings, explain the relevance and the added value of your work, highlight any limitations of your study, describe future directions for research and recommendations. 
+We have demonstrated that deep learning models are able to provide good fracture detection predictions and localization from the CT radiographs. The results have shown the feasibility of the above mentioned models to perform cervical spine fracture detection with 95\% in segmentation and 94\% in fracture detection and localization. This that the CNNs holds promise at both worklist prioritization and assisting radiologists in cervical spine fracture detection on CT radiographs.
 
-In some disciplines use of Discussion or 'Conclusion' is interchangeable. It is not mandatory to use both. Please refer to Journal-level guidance for any specific requirements. 
+\newpage
 
-\backmatter
-
-\begin{appendices}
-
-\section{Section title of first appendix}\label{secA1}
-
-An appendix contains supplementary information that is not an essential part of the text itself but which may be helpful in providing a more comprehensive understanding of the research problem or it is information that is too cumbersome to be included in the body of the paper.
-
-%%=============================================%%
-%% For submissions to Nature Portfolio Journals %%
-%% please use the heading ``Extended Data''.   %%
-%%=============================================%%
-
-%%=============================================================%%
-%% Sample for another appendix section			       %%
-%%=============================================================%%
-
-%% \section{Example of another appendix section}\label{secA2}%
-%% Appendices may be used for helpful, supporting or essential material that would otherwise 
-%% clutter, break up or be distracting to the text. Appendices can consist of sections, figures, 
-%% tables and equations etc.
-
-\end{appendices}
 
 %%===========================================================================================%%
 %% If you are submitting to one of the Nature Portfolio journals, using the eJP submission   %%

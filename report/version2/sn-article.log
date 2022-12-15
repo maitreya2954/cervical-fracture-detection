@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.8)  14 DEC 2022 20:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.8)  15 DEC 2022 16:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -600,7 +600,14 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count327
 \l__pdf_internal_box=\box68
 )
-(./sn-article.aux)
+(./sn-article.aux
+
+LaTeX Warning: Label `fig:mesh5.1' multiply defined.
+
+
+LaTeX Warning: Label `fig:mesh5.2' multiply defined.
+
+)
 \openout1 = `sn-article.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
@@ -716,102 +723,65 @@ LaTeX Info: Redefining \nameref on input line 72.
 \@outlinefile=\write3
 \openout3 = `sn-article.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 130.
 
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 130.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <8.43146> not available
-(Font)              size <8> substituted on input line 130.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 130.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 130.
-
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 13
-0.
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.52061> not available
-(Font)              size <6> substituted on input line 130.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.52061> not available
-(Font)              size <6> substituted on input line 130.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.52061> not available
-(Font)              size <6> substituted on input line 130.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.52061> not available
-(Font)              size <6> substituted on input line 130.
-
-
-Underfull \hbox (badness 2376) in paragraph at lines 130--130
+Underfull \hbox (badness 2376) in paragraph at lines 128--128
  \OT1/cmr/bx/n/9 Purpose: \OT1/cmr/m/n/9 To develop a deep learn-ing model for 
 the detec-tion 
  []
 
 
-Underfull \hbox (badness 3872) in paragraph at lines 130--130
+Underfull \hbox (badness 3872) in paragraph at lines 128--128
  []\OT1/cmr/bx/n/9 Results: \OT1/cmr/m/n/9 The seg-men-ta-tion model pre-dicts 
 the ver-te-brae label 
  []
 
 
-Underfull \hbox (badness 6725) in paragraph at lines 130--130
+Underfull \hbox (badness 6725) in paragraph at lines 128--128
  \OT1/cmr/m/n/9 with the accu-racy of 95.13% whereas the frac-ture detec-tion 
  []
 
 
-Underfull \hbox (badness 3884) in paragraph at lines 130--130
+Underfull \hbox (badness 3884) in paragraph at lines 128--128
  \OT1/cmr/m/n/9 model pre-dicts frac-tures with an accu-racy of 94%. The frac- 
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
  \OT1/cmr/m/n/9 ture detec-tion model also draws bound-ing boxes local-iz-ing 
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 130--130
+Underfull \hbox (badness 3471) in paragraph at lines 128--128
  \OT1/cmr/m/n/9 the frac-tures and pro-vides the objec-tive-ness of the pre-dic
 -tion. 
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 130--130
+Underfull \hbox (badness 1571) in paragraph at lines 128--128
  \OT1/cmr/m/n/9 able to pro-vide good frac-ture detec-tion pre-dic-tions and lo
 cal-iza- 
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 130--130
+Underfull \hbox (badness 1590) in paragraph at lines 128--128
  \OT1/cmr/m/n/9 tion from the CT radio-graphs. We have shown that the CNNs 
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 130--130
+Underfull \hbox (badness 1997) in paragraph at lines 128--128
  \OT1/cmr/m/n/9 holds promise at both work-list pri-or-i-ti-za-tion and assist-
 ing radi- 
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 130--130
+Underfull \hbox (badness 2351) in paragraph at lines 128--128
  \OT1/cmr/m/n/9 ol-o-gists in cer-vi-cal spine frac-ture detec-tion on CT radio
 -graphs. 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 13
-0.
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 12
+8.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -825,11 +795,11 @@ Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
 [2]
-<./screenshots/fracture-distribution.png, id=100, 986.68625pt x 341.275pt>
+<./screenshots/fracture-distribution.png, id=111, 986.68625pt x 341.275pt>
 File: ./screenshots/fracture-distribution.png Graphic file (type png)
 <use ./screenshots/fracture-distribution.png>
 Package pdftex.def Info: ./screenshots/fracture-distribution.png  used on input
- line 155.
+ line 153.
 (pdftex.def)             Requested size: 338.58778pt x 117.1099pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -839,27 +809,27 @@ Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
 [3 <./screenshots/fracture-distribution.png>]
-<./screenshots/hu.png, id=111, 1410.26875pt x 523.9575pt>
+<./screenshots/hu.png, id=122, 1410.26875pt x 523.9575pt>
 File: ./screenshots/hu.png Graphic file (type png)
 <use ./screenshots/hu.png>
-Package pdftex.def Info: ./screenshots/hu.png  used on input line 171.
+Package pdftex.def Info: ./screenshots/hu.png  used on input line 169.
 (pdftex.def)             Requested size: 270.87125pt x 100.63226pt.
-<./screenshots/windowing-impact-1.png, id=113, 678.535pt x 381.425pt>
+<./screenshots/windowing-impact-1.png, id=124, 678.535pt x 381.425pt>
 File: ./screenshots/windowing-impact-1.png Graphic file (type png)
 <use ./screenshots/windowing-impact-1.png>
 Package pdftex.def Info: ./screenshots/windowing-impact-1.png  used on input li
-ne 185.
+ne 183.
 (pdftex.def)             Requested size: 165.63684pt x 93.11215pt.
-<./screenshots/windowing-impact-2.png, id=114, 682.55pt x 414.54875pt>
+<./screenshots/windowing-impact-2.png, id=125, 682.55pt x 414.54875pt>
 File: ./screenshots/windowing-impact-2.png Graphic file (type png)
 <use ./screenshots/windowing-impact-2.png>
 Package pdftex.def Info: ./screenshots/windowing-impact-2.png  used on input li
-ne 191.
+ne 189.
 (pdftex.def)             Requested size: 153.30675pt x 93.11215pt.
-<./screenshots/resizing.png, id=115, 1111.5126pt x 370.0224pt>
+<./screenshots/resizing.png, id=126, 1111.5126pt x 370.0224pt>
 File: ./screenshots/resizing.png Graphic file (type png)
 <use ./screenshots/resizing.png>
-Package pdftex.def Info: ./screenshots/resizing.png  used on input line 206.
+Package pdftex.def Info: ./screenshots/resizing.png  used on input line 204.
 (pdftex.def)             Requested size: 270.87125pt x 90.17354pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -870,41 +840,71 @@ Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 [4 <./screenshots/hu.png (PNG copy)> <./screenshots/windowing-impact-1.png> <./
 screenshots/windowing-impact-2.png> <./screenshots/resizing.png>]
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 218.
+<./screenshots/methodology.png, id=139, 961.5925pt x 556.0775pt>
+File: ./screenshots/methodology.png Graphic file (type png)
+<use ./screenshots/methodology.png>
+Package pdftex.def Info: ./screenshots/methodology.png  used on input line 217.
+
+(pdftex.def)             Requested size: 338.58778pt x 195.80098pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.44444pt too high) has occurred while \output is active []
+
+
+[5 <./screenshots/methodology.png>]
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 241.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 218.
+(Font)              size <5> substituted on input line 241.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.015> not available
-(Font)              size <5> substituted on input line 218.
+(Font)              size <5> substituted on input line 241.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 218.
+(Font)              size <5> substituted on input line 241.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 218.
+(Font)              size <5> substituted on input line 241.
 
-<./screenshots/vertebrae-prediction-1.png, id=132, 978.65625pt x 282.05376pt>
+<./screenshots/seg_loss.jpg, id=153, 1606.0pt x 654.445pt>
+File: ./screenshots/seg_loss.jpg Graphic file (type jpg)
+<use ./screenshots/seg_loss.jpg>
+Package pdftex.def Info: ./screenshots/seg_loss.jpg  used on input line 261.
+(pdftex.def)             Requested size: 169.29388pt x 68.98338pt.
+<./screenshots/seg_eval_acc.jpg, id=154, 1606.0pt x 649.42625pt>
+File: ./screenshots/seg_eval_acc.jpg Graphic file (type jpg)
+<use ./screenshots/seg_eval_acc.jpg>
+Package pdftex.def Info: ./screenshots/seg_eval_acc.jpg  used on input line 266
+.
+(pdftex.def)             Requested size: 169.29388pt x 68.45436pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 259--269
+[]$[]$ $[]$ 
+ []
+
+<./screenshots/vertebrae-prediction-1.png, id=155, 978.65625pt x 282.05376pt>
 File: ./screenshots/vertebrae-prediction-1.png Graphic file (type png)
 <use ./screenshots/vertebrae-prediction-1.png>
 Package pdftex.def Info: ./screenshots/vertebrae-prediction-1.png  used on inpu
-t line 239.
+t line 277.
 (pdftex.def)             Requested size: 338.58778pt x 97.58408pt.
-<./screenshots/vertebrae-prediction-2.png, id=133, 978.65625pt x 282.05376pt>
+<./screenshots/vertebrae-prediction-2.png, id=156, 978.65625pt x 282.05376pt>
 File: ./screenshots/vertebrae-prediction-2.png Graphic file (type png)
 <use ./screenshots/vertebrae-prediction-2.png>
 Package pdftex.def Info: ./screenshots/vertebrae-prediction-2.png  used on inpu
-t line 244.
+t line 282.
 (pdftex.def)             Requested size: 338.58778pt x 97.58408pt.
-<./screenshots/vertebrae-prediction-3.png, id=134, 978.65625pt x 282.05376pt>
+<./screenshots/vertebrae-prediction-3.png, id=157, 978.65625pt x 282.05376pt>
 File: ./screenshots/vertebrae-prediction-3.png Graphic file (type png)
 <use ./screenshots/vertebrae-prediction-3.png>
 Package pdftex.def Info: ./screenshots/vertebrae-prediction-3.png  used on inpu
-t line 249.
+t line 287.
 (pdftex.def)             Requested size: 338.58778pt x 97.58408pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -913,13 +913,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[5]
-<./screenshots/effnetfracture.png, id=142, 843.15pt x 460.72125pt>
-File: ./screenshots/effnetfracture.png Graphic file (type png)
-<use ./screenshots/effnetfracture.png>
-Package pdftex.def Info: ./screenshots/effnetfracture.png  used on input line 2
-62.
-(pdftex.def)             Requested size: 338.58778pt x 185.01636pt.
+[6 <./screenshots/seg_loss.jpg> <./screenshots/seg_eval_acc.jpg>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -927,29 +927,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[6 <./screenshots/vertebrae-prediction-1.png> <./screenshots/vertebrae-predicti
-on-2.png> <./screenshots/vertebrae-prediction-3.png>] (./sn-article.bbl
+[7 <./screenshots/vertebrae-prediction-1.png> <./screenshots/vertebrae-predicti
+on-2.png> <./screenshots/vertebrae-prediction-3.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[7 <./screenshots/effnetfracture.png>]
+[8] (./sn-article.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[8]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 266--272
 \OT1/cmr/m/n/10 Ran-dom For-est Clas-si-fier. [][]$https : / / scikit-[]learn .
  org / stable / modules /
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 276--283
+Underfull \hbox (badness 2600) in paragraph at lines 312--319
 []\OT1/cmr/m/n/10 Gupta, S., Tan, M.: EfficientNet-EdgeTPU: Cre-at-ing Accelera
 tor-
  []
@@ -961,39 +961,42 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[9] (./sn-article.aux)
+[10] (./sn-article.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `sn-article.out' has not changed.
-(rerunfilecheck)             Checksum: 340392420055636A86A85C6B78AE6399;1784.
+(rerunfilecheck)             Checksum: 2FAB61F25084F83E182DE377446DFE73;2131.
  ) 
 Here is how much of TeX's memory you used:
- 14516 strings out of 478268
- 222263 string characters out of 5846348
- 522928 words of memory out of 5000000
- 32426 multiletter control sequences out of 15000+600000
- 493904 words of font info for 127 fonts, out of 8000000 for 9000
+ 14495 strings out of 478268
+ 222193 string characters out of 5846348
+ 522887 words of memory out of 5000000
+ 32400 multiletter control sequences out of 15000+600000
+ 485447 words of font info for 93 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
  75i,14n,77p,1060b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy
-8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10
-.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pf
-b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
-texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/tex
-live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texl
-ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on sn-article.pdf (9 pages, 1567167 bytes).
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2
+022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on sn-article.pdf (10 pages, 1733060 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 289 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 

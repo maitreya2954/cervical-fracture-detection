@@ -1,0 +1,37 @@
+@software{glenn_jocher_2022_7347926,
+  author       = {Glenn Jocher and
+                  Ayush Chaurasia and
+                  Alex Stoken and
+                  Jirka Borovec and
+                  NanoCode012 and
+                  Yonghye Kwon and
+                  Kalen Michael and
+                  TaoXie and
+                  Jiacong Fang and
+                  imyhxy and
+                  Lorna and
+                  Colin Wong and
+                  Abhiram V and
+                  Diego Montes and
+                  Zhiqiang Wang and
+                  Cristi Fati and
+                  Jebastin Nadar and
+                  Laughing and
+                  UnglvKitDe and
+                  Victor Sonck and
+                  tkianai and
+                  yxNONG and
+                  Piotr Skalski and
+                  Adam Hogan and
+                  Dhruv Nair and
+                  Max Strobel and
+                  Mrinal Jain},
+  title        = {{ultralytics/yolov5: v7.0 - YOLOv5 SOTA Realtime 
+                   Instance Segmentation}},
+  month        = nov,
+  year         = 2022,
+  publisher    = {Zenodo},
+  version      = {v7.0},
+  doi          = {10.5281/zenodo.7347926},
+  url          = {https://doi.org/10.5281/zenodo.7347926}
+}
