@@ -21,56 +21,56 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: sn-bibliography.bib
 Warning--entry type for "rsna-url" isn't style-file defined
---line 27 of file sn-bibliography.bib
+--line 169 of file sn-bibliography.bib
 Warning--entry type for "Fused-MBConv" isn't style-file defined
---line 34 of file sn-bibliography.bib
+--line 177 of file sn-bibliography.bib
 Warning--entry type for "SEG:RandForest" isn't style-file defined
---line 45 of file sn-bibliography.bib
+--line 189 of file sn-bibliography.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--to sort, need author or key in rsna-url
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 10 entries,
+You've used 14 entries,
             7385 wiz_defined-function locations,
-            1261 strings with 14509 characters,
-and the built_in function-call counts, 271437 in all, are:
-= -- 51884
-> -- 352
-< -- 140
-+ -- 33142
-- -- 141
-* -- 5505
-:= -- 46286
-add.period$ -- 18
-call.type$ -- 10
-change.case$ -- 94
-chr.to.int$ -- 367
-cite$ -- 12
-duplicate$ -- 448
-empty$ -- 2629
-format.name$ -- 284
-if$ -- 70683
+            1302 strings with 20266 characters,
+and the built_in function-call counts, 296774 in all, are:
+= -- 54910
+> -- 572
+< -- 212
++ -- 33619
+- -- 217
+* -- 7481
+:= -- 51376
+add.period$ -- 26
+call.type$ -- 14
+change.case$ -- 114
+chr.to.int$ -- 575
+cite$ -- 16
+duplicate$ -- 724
+empty$ -- 4415
+format.name$ -- 488
+if$ -- 76302
 int.to.chr$ -- 1
-int.to.str$ -- 19
+int.to.str$ -- 23
 missing$ -- 0
-newline$ -- 195
-num.names$ -- 39
-pop$ -- 246
+newline$ -- 275
+num.names$ -- 55
+pop$ -- 407
 preamble$ -- 1
-purify$ -- 47
+purify$ -- 63
 quote$ -- 0
-skip$ -- 31984
+skip$ -- 33509
 stack$ -- 0
-substring$ -- 25531
-swap$ -- 249
-text.length$ -- 167
+substring$ -- 29335
+swap$ -- 409
+text.length$ -- 221
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 385
+type$ -- 566
 warning$ -- 1
-while$ -- 361
+while$ -- 543
 width$ -- 0
-write$ -- 216
+write$ -- 304
 (There were 4 warnings)

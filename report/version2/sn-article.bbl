@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{10}
+\begin{thebibliography}{14}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -155,6 +155,90 @@ pp. \bfpage{10096}--\blpage{10106}.
 \endbibitem
 
 %%% 7
+\bibitem{Small:2021aa}
+\begin{barticle}
+\bauthor{\bsnm{Small}, \binits{J.E.}},
+\bauthor{\bsnm{Osler}, \binits{P.}},
+\bauthor{\bsnm{Paul}, \binits{A.B.}},
+\bauthor{\bsnm{Kunst}, \binits{M.}}:
+\batitle{Ct cervical spine fracture detection using a convolutional neural
+  network.}
+\bjtitle{AJNR Am J Neuroradiol}
+\bvolume{42}(\bissue{7}),
+\bfpage{1341}--\blpage{1347}
+(\byear{2021}).
+\doiurl{10.3174/ajnr.A7094}
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem{Thian:2019aa}
+\begin{barticle}
+\bauthor{\bsnm{Thian}, \binits{Y.L.}},
+\bauthor{\bsnm{Li}, \binits{Y.}},
+\bauthor{\bsnm{Jagmohan}, \binits{P.}},
+\bauthor{\bsnm{Sia}, \binits{D.}},
+\bauthor{\bsnm{Chan}, \binits{V.E.Y.}},
+\bauthor{\bsnm{Tan}, \binits{R.T.}}:
+\batitle{Convolutional neural networks for automated fracture detection and
+  localization on wrist radiographs.}
+\bjtitle{Radiol Artif Intell}
+\bvolume{1}(\bissue{1}),
+\bfpage{180001}
+(\byear{2019}).
+\doiurl{10.1148/ryai.2019180001}
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem{PRANATA201927}
+\begin{barticle}
+\bauthor{\bsnm{Pranata}, \binits{Y.D.}},
+\bauthor{\bsnm{Wang}, \binits{K.-C.}},
+\bauthor{\bsnm{Wang}, \binits{J.-C.}},
+\bauthor{\bsnm{Idram}, \binits{I.}},
+\bauthor{\bsnm{Lai}, \binits{J.-Y.}},
+\bauthor{\bsnm{Liu}, \binits{J.-W.}},
+\bauthor{\bsnm{Hsieh}, \binits{I.-H.}}:
+\batitle{Deep learning and surf for automated classification and detection of
+  calcaneus fractures in ct images}.
+\bjtitle{Computer Methods and Programs in Biomedicine}
+\bvolume{171},
+\bfpage{27}--\blpage{37}
+(\byear{2019}).
+\doiurl{10.1016/j.cmpb.2019.02.006}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem{Mawatari:2020aa}
+\begin{barticle}
+\bauthor{\bsnm{Mawatari}, \binits{T.}},
+\bauthor{\bsnm{Hayashida}, \binits{Y.}},
+\bauthor{\bsnm{Katsuragawa}, \binits{S.}},
+\bauthor{\bsnm{Yoshimatsu}, \binits{Y.}},
+\bauthor{\bsnm{Hamamura}, \binits{T.}},
+\bauthor{\bsnm{Anai}, \binits{K.}},
+\bauthor{\bsnm{Ueno}, \binits{M.}},
+\bauthor{\bsnm{Yamaga}, \binits{S.}},
+\bauthor{\bsnm{Ueda}, \binits{I.}},
+\bauthor{\bsnm{Terasawa}, \binits{T.}},
+\bauthor{\bsnm{Fujisaki}, \binits{A.}},
+\bauthor{\bsnm{Chihara}, \binits{C.}},
+\bauthor{\bsnm{Miyagi}, \binits{T.}},
+\bauthor{\bsnm{Aoki}, \binits{T.}},
+\bauthor{\bsnm{Korogi}, \binits{Y.}}:
+\batitle{The effect of deep convolutional neural networks on radiologists'
+  performance in the detection of hip fractures on digital pelvic radiographs.}
+\bjtitle{Eur J Radiol}
+\bvolume{130},
+\bfpage{109188}
+(\byear{2020}).
+\doiurl{10.1016/j.ejrad.2020.109188}
+\end{barticle}
+\endbibitem
+
+%%% 11
 \bibitem{rsna-url}
 \begin{botherref}
 Radiology Society of North America.
@@ -162,7 +246,7 @@ Radiology Society of North America.
 \end{botherref}
 \endbibitem
 
-%%% 8
+%%% 12
 \bibitem{DBLP:journals/corr/abs-1812-00572}
 \begin{botherref}
 \oauthor{\bsnm{Lee}, \binits{H.}},
@@ -176,7 +260,7 @@ CoRR
 \end{botherref}
 \endbibitem
 
-%%% 9
+%%% 13
 \bibitem{SEG:RandForest}
 \begin{botherref}
 \oauthor{\bsnm{Buitinck}, \binits{L.}},
@@ -186,7 +270,7 @@ Scikit-learn: Machine Learning in Python, Random Forest Classifier.
 \end{botherref}
 \endbibitem
 
-%%% 10
+%%% 14
 \bibitem{Fused-MBConv}
 \begin{botherref}
 \oauthor{\bsnm{Gupta}, \binits{S.}},

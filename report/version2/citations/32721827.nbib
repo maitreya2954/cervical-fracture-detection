@@ -1,0 +1,140 @@
+PMID- 32721827
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210317
+LR  - 20210317
+IS  - 1872-7727 (Electronic)
+IS  - 0720-048X (Linking)
+VI  - 130
+DP  - 2020 Sep
+TI  - The effect of deep convolutional neural networks on radiologists' performance in 
+      the detection of hip fractures on digital pelvic radiographs.
+PG  - 109188
+LID - S0720-048X(20)30377-6 [pii]
+LID - 10.1016/j.ejrad.2020.109188 [doi]
+AB  - PURPOSE: The purpose of our study is to develop deep convolutional neural network 
+      (DCNN) for detecting hip fractures using CT and MRI as a gold standard, and to 
+      evaluate the diagnostic performance of 7 readers with and without DCNN. METHODS: 
+      The study population consisted of 327 patients who underwent pelvic CT or MRI and 
+      were diagnosed with proximal femoral fractures. All radiographs were manually 
+      checked and annotated by radiologists referring to CT and MRI for selecting ROI. 
+      At first, a DCNN with the GoogLeNet model was trained by 302 cases. The remaining 
+      25 cases and 25 control subjects were used for the observer performance study and 
+      for the testing of DCNN. Seven readers took part in this study. A continuous 
+      rating scale was used to record each observer's confidence level. Subsequently, 
+      each observer interpreted with the DCNN outputs and rated them again. The area 
+      under the curve (AUC) was used to compare the fracture detection. RESULTS: The 
+      average AUC of the 7 readers was 0.832. The AUC of DCNN alone was 0.905. The 
+      average AUC of the 7 readers with DCNN outputs was 0.876. The AUC of readers with 
+      DCNN output were higher than those without(p < 0.05). The AUC of the 2 
+      experienced readers with DCNN output exceeded the AUC of DCNN alone. CONCLUSION: 
+      For detecting the hip fractures on radiographs, DCNN developed using CT and MRI 
+      as a gold standard by radiologists improved the diagnostic performance including 
+      the experienced readers.
+CI  - Copyright © 2020 Elsevier B.V. All rights reserved.
+FAU - Mawatari, Tsubasa
+AU  - Mawatari T
+AD  - Department of Radiological Sciences, Graduate school of Health Sciences, Teikyo 
+      University, 6-22 Misakimachi, Omuta, Fukuoka, 836-8505, Japan.
+FAU - Hayashida, Yoshiko
+AU  - Hayashida Y
+AD  - Department of Radiology, University of Occupational and Environmental Health, 
+      1-1, Iseigaoka, Yahatanishiku, Kitakyushu, Fukuoka, 807-8555, Japan. Electronic 
+      address: yhlinda@med.uoeh-u.ac.jp.
+FAU - Katsuragawa, Shigehiko
+AU  - Katsuragawa S
+AD  - Department of Radiological Sciences, Graduate school of Health Sciences, Teikyo 
+      University, 6-22 Misakimachi, Omuta, Fukuoka, 836-8505, Japan.
+FAU - Yoshimatsu, Yuta
+AU  - Yoshimatsu Y
+AD  - Department of Radiology, University of Occupational and Environmental Health, 
+      1-1, Iseigaoka, Yahatanishiku, Kitakyushu, Fukuoka, 807-8555, Japan.
+FAU - Hamamura, Toshihiko
+AU  - Hamamura T
+AD  - Department of Radiology, University of Occupational and Environmental Health, 
+      1-1, Iseigaoka, Yahatanishiku, Kitakyushu, Fukuoka, 807-8555, Japan.
+FAU - Anai, Kenta
+AU  - Anai K
+AD  - Department of Radiology, University of Occupational and Environmental Health, 
+      1-1, Iseigaoka, Yahatanishiku, Kitakyushu, Fukuoka, 807-8555, Japan.
+FAU - Ueno, Midori
+AU  - Ueno M
+AD  - Department of Radiology, University of Occupational and Environmental Health, 
+      1-1, Iseigaoka, Yahatanishiku, Kitakyushu, Fukuoka, 807-8555, Japan.
+FAU - Yamaga, Satoru
+AU  - Yamaga S
+AD  - Department of Medicine and Biosystemic Sciences, Graduate School of Medical 
+      Sciences, Kyushu University, Japan.
+FAU - Ueda, Issei
+AU  - Ueda I
+AD  - Department of Radiology, University of Occupational and Environmental Health, 
+      1-1, Iseigaoka, Yahatanishiku, Kitakyushu, Fukuoka, 807-8555, Japan.
+FAU - Terasawa, Takashi
+AU  - Terasawa T
+AD  - Department of Radiology, University of Occupational and Environmental Health, 
+      1-1, Iseigaoka, Yahatanishiku, Kitakyushu, Fukuoka, 807-8555, Japan.
+FAU - Fujisaki, Akitaka
+AU  - Fujisaki A
+AD  - Department of Radiology, University of Occupational and Environmental Health, 
+      1-1, Iseigaoka, Yahatanishiku, Kitakyushu, Fukuoka, 807-8555, Japan.
+FAU - Chihara, Chihiro
+AU  - Chihara C
+AD  - Department of Radiology, University of Occupational and Environmental Health, 
+      1-1, Iseigaoka, Yahatanishiku, Kitakyushu, Fukuoka, 807-8555, Japan.
+FAU - Miyagi, Tomoyuki
+AU  - Miyagi T
+AD  - Department of Medicine and Biosystemic Sciences, Graduate School of Medical 
+      Sciences, Kyushu University, Japan.
+FAU - Aoki, Takatoshi
+AU  - Aoki T
+AD  - Department of Radiology, University of Occupational and Environmental Health, 
+      1-1, Iseigaoka, Yahatanishiku, Kitakyushu, Fukuoka, 807-8555, Japan.
+FAU - Korogi, Yukunori
+AU  - Korogi Y
+AD  - Department of Radiology, University of Occupational and Environmental Health, 
+      1-1, Iseigaoka, Yahatanishiku, Kitakyushu, Fukuoka, 807-8555, Japan.
+LA  - eng
+PT  - Journal Article
+DEP - 20200723
+PL  - Ireland
+TA  - Eur J Radiol
+JT  - European journal of radiology
+JID - 8106411
+SB  - IM
+MH  - Aged
+MH  - Aged, 80 and over
+MH  - Area Under Curve
+MH  - *Deep Learning
+MH  - Female
+MH  - Hip Fractures/*diagnostic imaging
+MH  - Humans
+MH  - Image Processing, Computer-Assisted/methods
+MH  - Magnetic Resonance Imaging/*methods
+MH  - Male
+MH  - Middle Aged
+MH  - *Neural Networks, Computer
+MH  - Pelvis/*diagnostic imaging
+MH  - *ROC Curve
+MH  - Radiographic Image Enhancement/*methods
+MH  - Radiography, Abdominal/*methods
+MH  - Tomography, X-Ray Computed/*methods
+OTO - NOTNLM
+OT  - Diagnosis, Computer-Assisted
+OT  - Femoral Fractures
+OT  - Neural Networks, Computer
+OT  - Radiography
+OT  - Reference Standards
+EDAT- 2020/07/30 06:00
+MHDA- 2021/03/18 06:00
+CRDT- 2020/07/30 06:00
+PHST- 2020/04/26 00:00 [received]
+PHST- 2020/07/12 00:00 [revised]
+PHST- 2020/07/18 00:00 [accepted]
+PHST- 2020/07/30 06:00 [pubmed]
+PHST- 2021/03/18 06:00 [medline]
+PHST- 2020/07/30 06:00 [entrez]
+AID - S0720-048X(20)30377-6 [pii]
+AID - 10.1016/j.ejrad.2020.109188 [doi]
+PST - ppublish
+SO  - Eur J Radiol. 2020 Sep;130:109188. doi: 10.1016/j.ejrad.2020.109188. Epub 2020 
+      Jul 23.

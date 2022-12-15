@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.8)  6 DEC 2022 17:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.8)  14 DEC 2022 20:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -760,68 +760,76 @@ the detec-tion
  []
 
 
-Package natbib Warning: Citation `DBLP:conf/icml/TanL21' on page 1 undefined on
- input line 130.
+Underfull \hbox (badness 3872) in paragraph at lines 130--130
+ []\OT1/cmr/bx/n/9 Results: \OT1/cmr/m/n/9 The seg-men-ta-tion model pre-dicts 
+the ver-te-brae label 
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
- []\OT1/cmr/bx/n/9 Results: \OT1/cmr/m/n/9 Results need to be updated 
+Underfull \hbox (badness 6725) in paragraph at lines 130--130
+ \OT1/cmr/m/n/9 with the accu-racy of 95.13% whereas the frac-ture detec-tion 
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 130--130
+ \OT1/cmr/m/n/9 model pre-dicts frac-tures with an accu-racy of 94%. The frac- 
+
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 130--130
- []\OT1/cmr/bx/n/9 Conclusion: \OT1/cmr/m/n/9 The abil-ity of a X model to dete
-ct and 
+ \OT1/cmr/m/n/9 ture detec-tion model also draws bound-ing boxes local-iz-ing 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
- \OT1/cmr/m/n/9 local-ize cer-vi-cal spine frac-tures on axial CT radio-graphs 
-
+Underfull \hbox (badness 3471) in paragraph at lines 130--130
+ \OT1/cmr/m/n/9 the frac-tures and pro-vides the objec-tive-ness of the pre-dic
+-tion. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
- \OT1/cmr/m/n/9 with high sen-si-tiv-ity and speci-ficity was demon-strated. 
+Underfull \hbox (badness 1571) in paragraph at lines 130--130
+ \OT1/cmr/m/n/9 able to pro-vide good frac-ture detec-tion pre-dic-tions and lo
+cal-iza- 
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 130--130
+ \OT1/cmr/m/n/9 tion from the CT radio-graphs. We have shown that the CNNs 
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 130--130
+ \OT1/cmr/m/n/9 holds promise at both work-list pri-or-i-ti-za-tion and assist-
+ing radi- 
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 130--130
+ \OT1/cmr/m/n/9 ol-o-gists in cer-vi-cal spine frac-ture detec-tion on CT radio
+-graphs. 
  []
 
 LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 13
 0.
-
-Package natbib Warning: Citation `Milby:2008tt' on page 1 undefined on input li
-ne 133.
-
-
-Package natbib Warning: Citation `Minja:2018ud' on page 1 undefined on input li
-ne 133.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `Olczak:2017aa' on page 2 undefined on input l
-ine 137.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Package natbib Warning: Citation `Kim:2018aa' on page 2 undefined on input line
- 137.
+Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-Package natbib Warning: Citation `Chung:2018aa' on page 2 undefined on input li
-ne 137.
-
-
-Package natbib Warning: Citation `rsna-url' on page 2 undefined on input line 1
-45.
-
-<./screenshots/fracture-distribution.png, id=72, 986.68625pt x 341.275pt>
+[2]
+<./screenshots/fracture-distribution.png, id=100, 986.68625pt x 341.275pt>
 File: ./screenshots/fracture-distribution.png Graphic file (type png)
 <use ./screenshots/fracture-distribution.png>
 Package pdftex.def Info: ./screenshots/fracture-distribution.png  used on input
- line 150.
+ line 155.
 (pdftex.def)             Requested size: 338.58778pt x 117.1099pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -830,34 +838,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[2]
-<./screenshots/hu.png, id=79, 1410.26875pt x 523.9575pt>
+[3 <./screenshots/fracture-distribution.png>]
+<./screenshots/hu.png, id=111, 1410.26875pt x 523.9575pt>
 File: ./screenshots/hu.png Graphic file (type png)
 <use ./screenshots/hu.png>
-Package pdftex.def Info: ./screenshots/hu.png  used on input line 166.
+Package pdftex.def Info: ./screenshots/hu.png  used on input line 171.
 (pdftex.def)             Requested size: 270.87125pt x 100.63226pt.
-
-
-Package natbib Warning: Citation `DBLP:journals/corr/abs-1812-00572' on page 3 
-undefined on input line 173.
-
-<./screenshots/windowing-impact-1.png, id=80, 678.535pt x 381.425pt>
+<./screenshots/windowing-impact-1.png, id=113, 678.535pt x 381.425pt>
 File: ./screenshots/windowing-impact-1.png Graphic file (type png)
 <use ./screenshots/windowing-impact-1.png>
 Package pdftex.def Info: ./screenshots/windowing-impact-1.png  used on input li
-ne 180.
+ne 185.
 (pdftex.def)             Requested size: 165.63684pt x 93.11215pt.
-<./screenshots/windowing-impact-2.png, id=81, 682.55pt x 414.54875pt>
+<./screenshots/windowing-impact-2.png, id=114, 682.55pt x 414.54875pt>
 File: ./screenshots/windowing-impact-2.png Graphic file (type png)
 <use ./screenshots/windowing-impact-2.png>
 Package pdftex.def Info: ./screenshots/windowing-impact-2.png  used on input li
-ne 186.
+ne 191.
 (pdftex.def)             Requested size: 153.30675pt x 93.11215pt.
-<./screenshots/resizing.png, id=82, 1111.5126pt x 370.0224pt>
+<./screenshots/resizing.png, id=115, 1111.5126pt x 370.0224pt>
 File: ./screenshots/resizing.png Graphic file (type png)
 <use ./screenshots/resizing.png>
-Package pdftex.def Info: ./screenshots/resizing.png  used on input line 200.
-(pdftex.def)             Requested size: 338.58778pt x 112.71268pt.
+Package pdftex.def Info: ./screenshots/resizing.png  used on input line 206.
+(pdftex.def)             Requested size: 270.87125pt x 90.17354pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -865,41 +868,44 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[3 <./screenshots/fracture-distribution.png> <./screenshots/hu.png (PNG copy)> 
-<./screenshots/windowing-impact-1.png> <./screenshots/windowing-impact-2.png>]
+[4 <./screenshots/hu.png (PNG copy)> <./screenshots/windowing-impact-1.png> <./
+screenshots/windowing-impact-2.png> <./screenshots/resizing.png>]
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 218.
 
-Package natbib Warning: Citation `SEG:RandForest' on page 4 undefined on input 
-line 208.
-
-
-Package natbib Warning: Citation `DBLP:conf/icml/TanL21' on page 4 undefined on
- input line 208.
-
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 212.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 212.
+(Font)              size <5> substituted on input line 218.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.015> not available
-(Font)              size <5> substituted on input line 212.
+(Font)              size <5> substituted on input line 218.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 212.
+(Font)              size <5> substituted on input line 218.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 212.
+(Font)              size <5> substituted on input line 218.
 
-
-Package natbib Warning: Citation `Fused-MBConv' on page 4 undefined on input li
-ne 227.
-
-
-Package natbib Warning: Citation `DBLP:conf/icml/TanL21' on page 4 undefined on
- input line 227.
-
+<./screenshots/vertebrae-prediction-1.png, id=132, 978.65625pt x 282.05376pt>
+File: ./screenshots/vertebrae-prediction-1.png Graphic file (type png)
+<use ./screenshots/vertebrae-prediction-1.png>
+Package pdftex.def Info: ./screenshots/vertebrae-prediction-1.png  used on inpu
+t line 239.
+(pdftex.def)             Requested size: 338.58778pt x 97.58408pt.
+<./screenshots/vertebrae-prediction-2.png, id=133, 978.65625pt x 282.05376pt>
+File: ./screenshots/vertebrae-prediction-2.png Graphic file (type png)
+<use ./screenshots/vertebrae-prediction-2.png>
+Package pdftex.def Info: ./screenshots/vertebrae-prediction-2.png  used on inpu
+t line 244.
+(pdftex.def)             Requested size: 338.58778pt x 97.58408pt.
+<./screenshots/vertebrae-prediction-3.png, id=134, 978.65625pt x 282.05376pt>
+File: ./screenshots/vertebrae-prediction-3.png Graphic file (type png)
+<use ./screenshots/vertebrae-prediction-3.png>
+Package pdftex.def Info: ./screenshots/vertebrae-prediction-3.png  used on inpu
+t line 249.
+(pdftex.def)             Requested size: 338.58778pt x 97.58408pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -907,30 +913,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[4 <./screenshots/resizing.png>]
-<./screenshots/vertebrae-prediction-1.png, id=101, 978.65625pt x 282.05376pt>
-File: ./screenshots/vertebrae-prediction-1.png Graphic file (type png)
-<use ./screenshots/vertebrae-prediction-1.png>
-Package pdftex.def Info: ./screenshots/vertebrae-prediction-1.png  used on inpu
-t line 233.
-(pdftex.def)             Requested size: 338.58778pt x 97.58408pt.
-<./screenshots/vertebrae-prediction-2.png, id=102, 978.65625pt x 282.05376pt>
-File: ./screenshots/vertebrae-prediction-2.png Graphic file (type png)
-<use ./screenshots/vertebrae-prediction-2.png>
-Package pdftex.def Info: ./screenshots/vertebrae-prediction-2.png  used on inpu
-t line 238.
-(pdftex.def)             Requested size: 338.58778pt x 97.58408pt.
-<./screenshots/vertebrae-prediction-3.png, id=103, 978.65625pt x 282.05376pt>
-File: ./screenshots/vertebrae-prediction-3.png Graphic file (type png)
-<use ./screenshots/vertebrae-prediction-3.png>
-Package pdftex.def Info: ./screenshots/vertebrae-prediction-3.png  used on inpu
-t line 243.
-(pdftex.def)             Requested size: 338.58778pt x 97.58408pt.
-<./screenshots/effnetfracture.png, id=104, 843.15pt x 460.72125pt>
+[5]
+<./screenshots/effnetfracture.png, id=142, 843.15pt x 460.72125pt>
 File: ./screenshots/effnetfracture.png Graphic file (type png)
 <use ./screenshots/effnetfracture.png>
 Package pdftex.def Info: ./screenshots/effnetfracture.png  used on input line 2
-54.
+62.
 (pdftex.def)             Requested size: 338.58778pt x 185.01636pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -939,7 +927,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[5 <./screenshots/vertebrae-prediction-1.png> <./screenshots/vertebrae-predicti
+[6 <./screenshots/vertebrae-prediction-1.png> <./screenshots/vertebrae-predicti
 on-2.png> <./screenshots/vertebrae-prediction-3.png>] (./sn-article.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -947,57 +935,48 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[6 <./screenshots/effnetfracture.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 182--188
+[7 <./screenshots/effnetfracture.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.44444pt too high) has occurred while \output is active []
+
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 266--272
 \OT1/cmr/m/n/10 Ran-dom For-est Clas-si-fier. [][]$https : / / scikit-[]learn .
  org / stable / modules /
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 192--199
+Underfull \hbox (badness 2600) in paragraph at lines 276--283
 []\OT1/cmr/m/n/10 Gupta, S., Tan, M.: EfficientNet-EdgeTPU: Cre-at-ing Accelera
 tor-
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (1.44444pt too high) has occurred while \output is active []
-
-
-[7])
-
-Package natbib Warning: There were undefined citations.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (1.44444pt too high) has occurred while \output is active []
-
-
-[8] (./sn-article.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
 )
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.44444pt too high) has occurred while \output is active []
+
+
+[9] (./sn-article.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
 Package rerunfilecheck Info: File `sn-article.out' has not changed.
-(rerunfilecheck)             Checksum: AFD4A6E7ECC9330ABA5F721D01414514;1653.
+(rerunfilecheck)             Checksum: 340392420055636A86A85C6B78AE6399;1784.
  ) 
 Here is how much of TeX's memory you used:
- 14496 strings out of 478268
- 221905 string characters out of 5846348
- 522673 words of memory out of 5000000
- 32412 multiletter control sequences out of 15000+600000
+ 14516 strings out of 478268
+ 222263 string characters out of 5846348
+ 522928 words of memory out of 5000000
+ 32426 multiletter control sequences out of 15000+600000
  493904 words of font info for 127 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 75i,14n,77p,1069b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,77p,1060b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy
 8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10
 .pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
@@ -1011,10 +990,10 @@ al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
 texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/tex
 live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texl
 ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on sn-article.pdf (8 pages, 1562089 bytes).
+Output written on sn-article.pdf (9 pages, 1567167 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 168 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

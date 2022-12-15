@@ -1,0 +1,99 @@
+PMID- 33937780
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20220422
+IS  - 2638-6100 (Electronic)
+IS  - 2638-6100 (Linking)
+VI  - 1
+IP  - 1
+DP  - 2019 Jan
+TI  - Convolutional Neural Networks for Automated Fracture Detection and Localization 
+      on Wrist Radiographs.
+PG  - e180001
+LID - 10.1148/ryai.2019180001 [doi]
+LID - e180001
+AB  - PURPOSE: To demonstrate the feasibility and performance of an object detection 
+      convolutional neural network (CNN) for fracture detection and localization on 
+      wrist radiographs. MATERIALS AND METHODS: Institutional review board approval was 
+      obtained with waiver of consent for this retrospective study. A total of 7356 
+      wrist radiographic studies were extracted from a hospital picture archiving and 
+      communication system. Radiologists annotated all radius and ulna fractures with 
+      bounding boxes. The dataset was split into training (90%) and validation (10%) 
+      sets and used to train fracture localization models for frontal and lateral 
+      images. Inception-ResNet Faster R-CNN architecture was implemented as a deep 
+      learning model. The models were tested on an unseen test set of 524 consecutive 
+      emergency department wrist radiographic studies with two radiologists in 
+      consensus as the reference standard. Per-fracture, per-image (ie, per-view), and 
+      per-study sensitivity and specificity were determined. Area under the receiver 
+      operating characteristic curve (AUC) analysis was performed. RESULTS: The model 
+      detected and correctly localized 310 (91.2%) of 340 and 236 (96.3%) of 245 of all 
+      radius and ulna fractures on the frontal and lateral views, respectively. The 
+      per-image sensitivity, specificity, and AUC were 95.7% (95% confidence interval 
+      [CI]: 92.4%, 97.8%), 82.5% (95% CI: 77.4%, 86.8%), and 0.918 (95% CI: 0.894, 
+      0.941), respectively, for the frontal view and 96.7% (95% CI: 93.6%, 98.6%), 
+      86.4% (95% CI: 81.9%, 90.2%), and 0.933 (95% CI: 0.912, 0.954), respectively, for 
+      the lateral view. The per-study sensitivity, specificity, and AUC were 98.1% (95% 
+      CI: 95.6%, 99.4%), 72.9% (95% CI: 67.1%, 78.2%), and 0.895 (95% CI: 0.870, 
+      0.920), respectively. CONCLUSION: The ability of an object detection CNN to 
+      detect and localize radius and ulna fractures on wrist radiographs with high 
+      sensitivity and specificity was demonstrated.© RSNA, 2019.
+CI  - 2019 by the Radiological Society of North America, Inc.
+FAU - Thian, Yee Liang
+AU  - Thian YL
+AUID- ORCID: 0000-0001-9899-205X
+AD  - Department of Diagnostic Imaging (Y.L.T., P.J., D.S., V.E.Y.C.) and Department of 
+      Electrical and Computer Engineering (Y.L., R.T.T.), National University of 
+      Singapore, 5 Lower Kent Ridge Rd, Singapore 119074; and Science Division, 
+      Yale-NUS College, Singapore (R.T.T.).
+FAU - Li, Yiting
+AU  - Li Y
+AUID- ORCID: 0000-0003-0427-8539
+AD  - Department of Diagnostic Imaging (Y.L.T., P.J., D.S., V.E.Y.C.) and Department of 
+      Electrical and Computer Engineering (Y.L., R.T.T.), National University of 
+      Singapore, 5 Lower Kent Ridge Rd, Singapore 119074; and Science Division, 
+      Yale-NUS College, Singapore (R.T.T.).
+FAU - Jagmohan, Pooja
+AU  - Jagmohan P
+AD  - Department of Diagnostic Imaging (Y.L.T., P.J., D.S., V.E.Y.C.) and Department of 
+      Electrical and Computer Engineering (Y.L., R.T.T.), National University of 
+      Singapore, 5 Lower Kent Ridge Rd, Singapore 119074; and Science Division, 
+      Yale-NUS College, Singapore (R.T.T.).
+FAU - Sia, David
+AU  - Sia D
+AD  - Department of Diagnostic Imaging (Y.L.T., P.J., D.S., V.E.Y.C.) and Department of 
+      Electrical and Computer Engineering (Y.L., R.T.T.), National University of 
+      Singapore, 5 Lower Kent Ridge Rd, Singapore 119074; and Science Division, 
+      Yale-NUS College, Singapore (R.T.T.).
+FAU - Chan, Vincent Ern Yao
+AU  - Chan VEY
+AD  - Department of Diagnostic Imaging (Y.L.T., P.J., D.S., V.E.Y.C.) and Department of 
+      Electrical and Computer Engineering (Y.L., R.T.T.), National University of 
+      Singapore, 5 Lower Kent Ridge Rd, Singapore 119074; and Science Division, 
+      Yale-NUS College, Singapore (R.T.T.).
+FAU - Tan, Robby T
+AU  - Tan RT
+AD  - Department of Diagnostic Imaging (Y.L.T., P.J., D.S., V.E.Y.C.) and Department of 
+      Electrical and Computer Engineering (Y.L., R.T.T.), National University of 
+      Singapore, 5 Lower Kent Ridge Rd, Singapore 119074; and Science Division, 
+      Yale-NUS College, Singapore (R.T.T.).
+LA  - eng
+PT  - Journal Article
+DEP - 20190130
+PL  - United States
+TA  - Radiol Artif Intell
+JT  - Radiology. Artificial intelligence
+JID - 101746556
+PMC - PMC8017412
+EDAT- 2019/01/30 00:00
+MHDA- 2019/01/30 00:01
+CRDT- 2021/05/03 06:28
+PHST- 2018/06/27 00:00 [received]
+PHST- 2018/10/01 00:00 [revised]
+PHST- 2018/12/10 00:00 [accepted]
+PHST- 2021/05/03 06:28 [entrez]
+PHST- 2019/01/30 00:00 [pubmed]
+PHST- 2019/01/30 00:01 [medline]
+AID - 10.1148/ryai.2019180001 [doi]
+PST - epublish
+SO  - Radiol Artif Intell. 2019 Jan 30;1(1):e180001. doi: 10.1148/ryai.2019180001. 
+      eCollection 2019 Jan.

@@ -1,0 +1,87 @@
+PMID- 34255730
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20211012
+LR  - 20220716
+IS  - 1936-959X (Electronic)
+IS  - 0195-6108 (Print)
+IS  - 0195-6108 (Linking)
+VI  - 42
+IP  - 7
+DP  - 2021 Jul
+TI  - CT Cervical Spine Fracture Detection Using a Convolutional Neural Network.
+PG  - 1341-1347
+LID - 10.3174/ajnr.A7094 [doi]
+AB  - BACKGROUND AND PURPOSE: Multidetector CT has emerged as the standard of care 
+      imaging technique to evaluate cervical spine trauma. Our aim was to evaluate the 
+      performance of a convolutional neural network in the detection of cervical spine 
+      fractures on CT. MATERIALS AND METHODS: We evaluated C-spine, an FDA-approved 
+      convolutional neural network developed by Aidoc to detect cervical spine 
+      fractures on CT. A total of 665 examinations were included in our analysis. 
+      Ground truth was established by retrospective visualization of a fracture on CT 
+      by using all available CT, MR imaging, and convolutional neural network output 
+      information. The ĸ coefficients, sensitivity, specificity, and positive and 
+      negative predictive values were calculated with 95% CIs comparing diagnostic 
+      accuracy and agreement of the convolutional neural network and radiologist 
+      ratings, respectively, compared with ground truth. RESULTS: Convolutional neural 
+      network accuracy in cervical spine fracture detection was 92% (95% CI, 90%-94%), 
+      with 76% (95% CI, 68%-83%) sensitivity and 97% (95% CI, 95%-98%) specificity. The 
+      radiologist accuracy was 95% (95% CI, 94%-97%), with 93% (95% CI, 88%-97%) 
+      sensitivity and 96% (95% CI, 94%-98%) specificity. Fractures missed by the 
+      convolutional neural network and by radiologists were similar by level and 
+      location and included fractured anterior osteophytes, transverse processes, and 
+      spinous processes, as well as lower cervical spine fractures that are often 
+      obscured by CT beam attenuation. CONCLUSIONS: The convolutional neural network 
+      holds promise at both worklist prioritization and assisting radiologists in 
+      cervical spine fracture detection on CT. Understanding the strengths and 
+      weaknesses of the convolutional neural network is essential before its successful 
+      incorporation into clinical practice. Further refinements in sensitivity will 
+      improve convolutional neural network diagnostic utility.
+CI  - © 2021 by American Journal of Neuroradiology.
+FAU - Small, J E
+AU  - Small JE
+AUID- ORCID: 0000-0002-4931-3564
+AD  - From the Departments of Neuroradiology (J.E.S., A.B.P., M.K.) 
+      Juan.E.Small@Lahey.org.
+FAU - Osler, P
+AU  - Osler P
+AUID- ORCID: 0000-0003-4883-2925
+AD  - Radiology (P.O), Lahey Hospital and Medical Center, Burlington, Massachusetts.
+FAU - Paul, A B
+AU  - Paul AB
+AUID- ORCID: 0000-0002-5579-9855
+AD  - From the Departments of Neuroradiology (J.E.S., A.B.P., M.K.).
+FAU - Kunst, M
+AU  - Kunst M
+AUID- ORCID: 0000-0002-7104-0101
+AD  - From the Departments of Neuroradiology (J.E.S., A.B.P., M.K.).
+LA  - eng
+PT  - Journal Article
+DEP - 20210401
+PL  - United States
+TA  - AJNR Am J Neuroradiol
+JT  - AJNR. American journal of neuroradiology
+JID - 8003708
+SB  - IM
+MH  - Cervical Vertebrae/diagnostic imaging/injuries
+MH  - Humans
+MH  - Neural Networks, Computer
+MH  - Retrospective Studies
+MH  - Sensitivity and Specificity
+MH  - *Spinal Fractures/diagnostic imaging
+MH  - Tomography, X-Ray Computed
+PMC - PMC8324280
+EDAT- 2021/07/14 06:00
+MHDA- 2021/10/13 06:00
+CRDT- 2021/07/13 17:23
+PHST- 2020/08/21 00:00 [received]
+PHST- 2021/01/25 00:00 [accepted]
+PHST- 2021/07/13 17:23 [entrez]
+PHST- 2021/07/14 06:00 [pubmed]
+PHST- 2021/10/13 06:00 [medline]
+AID - ajnr.A7094 [pii]
+AID - 20-01239 [pii]
+AID - 10.3174/ajnr.A7094 [doi]
+PST - ppublish
+SO  - AJNR Am J Neuroradiol. 2021 Jul;42(7):1341-1347. doi: 10.3174/ajnr.A7094. Epub 
+      2021 Apr 1.
